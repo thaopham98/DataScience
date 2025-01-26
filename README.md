@@ -1,4 +1,4 @@
-# DataScience Project
+# DataScience Projects
 
 This repository contains data and Python analysis for various projects. It's organized into two main folders: `data` for storing datasets and `python_analysis` for Jupyter Notebooks containing the analysis code.
 
