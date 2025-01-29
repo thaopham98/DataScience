@@ -7,6 +7,12 @@ This repository contains data and Python analysis for various projects. It's org
 ### Prerequisites
 
 *   **Python:** Make sure you have Python 3.7+ installed. You can download it from [python.org](https://www.python.org/).
+*   **Anaconda (Recommended):**  Create a dedicated Anaconda environment for this project (recommended):
+
+    ```bash
+    conda create -n data_science_env python=3.13  # Choose your Python version
+    conda activate data_science_env
+    ```
 *   **Jupyter Notebook:** Install Jupyter Notebook using pip:
 
     ```bash
@@ -75,7 +81,8 @@ The `python_analysis` folder contains Jupyter Notebooks with examples of data an
     *   Perform exploratory data analysis (EDA).
     *   Apply machine learning models (if applicable).
     *   Visualize the results.
-
+    *   Interpretations for visual and statistic results.
+    
 *Provide a brief example for each notebook in the `python_analysis` folder. For example:*
 
 *   `analysis_notebook_1.ipynb`: This notebook performs customer segmentation using k-means clustering.
@@ -94,4 +101,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Authors
 
-*   thaopham98
+*   Thao Pham (thaopham98)
