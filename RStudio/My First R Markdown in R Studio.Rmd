@@ -1,0 +1,86 @@
+---
+title: "My First R"
+author: "Thao Pham"
+date: "2024-09-17"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r data}
+d = read.csv('ProstateData.csv')
+str(d)
+```
+### Categorical
+```{r categorical}
+d = d %>%
+  mutate(svi = factor(svi, label=c("svi0", "svi1"))) # converting categoorical to nominal  
+str(d)
+```
+
+```{r cat1}
+contrasts(d$svi)
+```
+
+```{r dist}
+d %>%
+  ggplot(aes(sample = lpsa)) + geom_qq()
+```
+
+
+```{r relationships}
+d %>%
+  select(-svi, -train) %>%
+  cor()
+```
+
+```{r catReplations}
+d %>%
+  ggplot(aes(x=svi, y=lpsa, fill = svi)) + geom_boxplot()
+
+```
+```{r statTest}
+library(broom)
+d %>% 
+  do(tidy(t.test(lpsa~svi, data=.))) %>%
+  select(p.value)
+```
+```{r splitData}
+trainD = d %>%
+  filter(train == T) %>%
+  select(-train)
+
+testD = d %>%
+  filter(train == F) %>%
+  select(-train)
+```
+
+```{r buildingModel}
+library(leaps)
+
+model = regsubsets(lpsa ~ . , data = trainD, method = "exhaustive")
+summary(model)
+```
+
+```{r modelMetrics}
+summary(model)$adjr2
+```
+
+```{r modelMetrics2}
+summary(model)$rss
+
+```
+```{r maxMetrics}
+modelSum=summary(model)
+which.max(modelSum$adjr2)
+
+```
+
+```{r modelCoef}
+coef(model, which.max(modelSum$adjr2))
+
+```
