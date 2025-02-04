@@ -1,0 +1,208 @@
+---
+title: "Assignment6"
+author: "Thao Pham"
+date: "2024-10-21"
+output: html_document
+---
+## Assignment 6: Perceptron Learning Algorithm
+### Introduction
+Use the Perceptron Learning Algorithm (PLA) to create a linear boundary to help Netflix make future recommendations to Ms. X. Report the model and number of iterations it took for the wights to converge.<br>
+
+Table of Contents:<br>
+  - Introduction<br>
+  - Read & examine the data<br>
+  - Training a perceptron with PLA<br>
+  - Reporting the model<br>
+  - Plot of boundary line<br>
+
+## Setup 
+Importing necessary library for this assignment, `ggplot2` for ploting data.<br>
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(ggplot2)
+```
+
+## Read & examine the data
+Importing the movie data from the *movieData.csv* and displaying the content of the file.<br>
+By default, when reading a dataframe, a console message will be displayed. To hide the message, use `show_col_type = FALSE` as a parameter of `read_csv()`. `movies` is created to store the dataset from *movieData.csv*.<br>
+
+```{r Impor tData}
+# movies = read_csv('movieData.csv', show_col_types = FALSE) # reading movieData.csv
+movies = read.csv('movieData.csv') # reading movieData.csv
+movies # displaying the data
+```
+#### Interpretation of the dataset, movieData 
+There are 3 columns, *LevelOfViolence*, *CriticsRating* and *Watched*; inside the *movieData.csv* with 13 data.<br>
+- *LevelOfViolence* is numerical variable with values.<br>
+- *CriticsRating* is a continuous variable with values.<br>
+- *Watched* has binary values with -1 as not watch movie and 1 as watched movie.<br>
+
+### Data Visualization
+Displaying *Critic Ratings* versus *Level of Violence* and include a way to identify if Ms. X watched it or not.<br>
+- `ggplot(movies)`: This creates a new ggplot object using the movies data frame as the base.<br>
+- `aes(y=CriticsRating, x=LevelOfViolence, color = factor(Watched))`:<br>
+ - `y=CriticsRating`: Sets the y-axis to represent the CriticsRating variable.<br>
+ - `x=LevelOfViolence`: Sets the x-axis to represent the LevelOfViolence variable.<br>
+ - `color = factor(Watched)`: Maps the Watched variable to the color aesthetic, effectively coloring points based on their Watched status. The factor() function is used to ensure that Watched is treated as a categorical variable.<br>
+- `geom_point( size=3)`: Adds scatter plot with the size 3 of the points to the graph.<br>
+- `scale_color_manual(values = c("-1" = "red", "1" = "blue") , labels = c("Not Watched", "Watched"))`: Manually specifies the colors for the different levels of the Watched variable.<br>
+- `values = c("-1" = "red", "1" = "blue")`: Associates the value "-1" with the color red and the value "1" with the color blue.<br>
+- `labels = c("Not Watched", "Watched")`: Replaces the default labels "-1" and "1" with more descriptive labels "Not Watched" and "Watched".<br>
+- `labs(title = "Decision Boundary of Perceptron", color = "Watch Status")`: Setting the title of the graph to "Decision Boundary of Perceptron" and the legend title for the color aesthetic to "Watch Status".<br>
+- `xlab('Critics Rating')`: Setting the label for the x-axis to "Critics Rating".<br>
+- `ylab('Level of Violence')`: Setting the label for the y-axis to "Level of Violence".<br>
+```{r Visualize the data}
+ggplot(movies, aes(y=CriticsRating, x=LevelOfViolence, color = factor(Watched))) +
+  geom_point( size=3) + # using shape in geom_point parameter
+  scale_color_manual(values = c("-1" = "red", "1" = "blue") , labels = c("Not Watched", "Watched")) +
+  labs(title = "Decision Boundary of Perceptron", color = "Watch Status") +
+  xlab('Critics Rating') +
+  ylab('Level of Violence')
+```
+#### Interpretation for Critics Rating vs. Level of Violence
+From the plot, there is a weak correlation between *Critics Rating* and *Level of Violence* in the movies and *watched* movies tend to have lower critics rating than *not watched* movies.
+
+## Training a perceptron with Perceptron Learning Algorithm
+Hard coding for Perceptron Learning Algorithm (PLA).<br>
+
+- `set.seed(123)`: Setting the seed to **123**, this will be used for the `runif()`.
+- `runif(ncol(movies), min = -1, max = 1)`: Initializing weights that matches the number of columns in `movies` with the minimum is `-1` and maximum is `1`. 
+- `weights`: Storing the generated values from `runif()`.
+- `cbind()`: Combining 2 matrix into 1 and stores in `new`.
+- `as.matrix(movies)`: Converting the `movies` data frame into a matrix format.
+- `Bias = rep(1,ncol(movies))`: Replicating the value `1` with `nrow(movies)` times of row in new column called `Bias`.
+- `cat()`: Printing one or more values
+- `new`: Storing the combined matrix.
+```{r Initializing Weights and Attaching Bias}
+set.seed(123) # making sure the runif() always return the same values
+
+weights <- runif(ncol(movies), min = -1, max = 1) # generating weights that matches the number of columns in movies
+cat('Weights:', weights,'\n') # displaying the weights 
+
+new <- cbind(Bias = rep(1, nrow(movies)), as.matrix(movies)) #Attaching the Bias column with the data in movies
+new
+```
+#### Interpretation for Initializing Weights and Attaching Bias
+By setting the seed to `123`, the `runif()` returns the same values of `weights`, which are -0.4248450,  0.5766103, and -0.1820462.<br> 
+The contents of `new` are Bias, LevelOfViolence, CriticsRating, and Watched with 13 data points.<br>
+
+### Perceptron Learning Algorithm (PLA)
+- Iterating until `weights` is converged.
+  - Tracking the number of iterations
+  - Grabbing a data point and divides it into `inputData`( Bias, LevelOfViolence, and CriticsRating) and `targetData`(Watched).
+  - Calculating the net input using the dot product.
+  - Apply the activation function using `sign()` to get the predicted values.
+  - Comparing the predicted and actual values. If they aren't equal to each other, update the `weights` vector by multiple the `targetData` with transposed `inputData`, then added with the current `weights`. 
+- Reporting number of iterations it took for weights to converge.
+- Returning the final weights.
+
+- `Sign()`: Returning 1 if the value is greater positive and returning -1 if the value is negative.
+- `cat()`: Printing one or more values
+- `as.matrix()`: Converting to matrix
+- `sum()`: Adding function 
+```{r - Perceptron Learing Algorithm}
+# Initialize variables
+iterations <- 0 # number of iteration through the loop
+converged <- FALSE # condition for the loop
+
+
+while (!converged ) 
+  {
+  converged <- TRUE  # Assume convergence is TRUE until
+  incorrect_counts <- 0  # Reset count for each iteration
+  iterations <- iterations + 1
+  
+  # Loop through each row/data point
+  for (i in 1:nrow(movies)) {
+    # Separate the inputData and targetData for the current row
+    inputData = as.numeric(new[i, 1:3])  # Includes Bias, LevelOfViolence, and CriticsRating
+    targetData = as.numeric(new[i, 4])   # Watched label (-1 or 1)
+    
+    # Apply the activation function using sign() with dot product
+    prediction = sign(sum(inputData * weights))
+    
+    # Check if the prediction is incorrect
+    if (prediction != targetData) {
+      # Update the weights
+      weights = weights + targetData * t(as.matrix(inputData))
+      
+      # Increment the count of incorrect predictions
+      incorrect_counts = incorrect_counts+1
+      converged = FALSE 
+    }
+  }
+  if (incorrect_counts == 0) {
+    cat("Convergence reached.\n")
+    break # stop the loop
+  }
+  
+  # Stop if the number of iterations exceeds a reasonable threshold
+  if (iterations > 1000) {
+    cat("Exceeded maximum number of iterations. Stopping training.\n")
+    break # stop the loop
+  }
+}
+# Output the results
+cat("Training completed in", iterations, "iterations.\n") 
+cat("Final weights:", weights, "\n")
+```
+
+## Reporting the model
+The Perceptron learning algorithm is a binary classifier that learns a linear decision boundary to separate two classes. In this case, the Perceptron was trained to predict whether a movie will be watched (represented by 1) or not watched (represented by -1) based on two features: *LevelOfViolence* and *CriticsRating.* The model is built with a bias term included.<br>
+The Perceptron Learning Algorithm (PLA) was trained using the movieData dataset. After 39 iterations, the model converged, resulting in the following final weights:<br>
+- Bias term: -28.42484<br>
+- Weight for LevelOfViolence: -8.42339<br>
+- Weight for CriticsRating: 14.71795<br>
+
+
+```{r Results}
+cat("Final weights:", weights, "\n")
+cat("Number of iterations:", iterations, "\n")
+
+# Output the final PLA model
+cat("The final model is: Sign(",weights[1], " + ", weights[2], " * x1 + ", weights[3], " * x2)\n")
+
+# Equation for the decision boundary
+cat("Equation: ", weights[2], "* x1 + ", weights[3], "* x2 =", -weights[1], "\n")
+
+# Calculate slope and y-intercept for visualization
+slope = -weights[2] / weights[3]
+y_intercept = -weights[1] / weights[3]
+
+cat("Slope:", slope, "\n")
+cat("Y-intercept:", y_intercept, "\n")
+
+```
+#### Interpretation for Results
+The model predicts whether a movie will be watched or not (binary classification). The weights suggest that CriticsRating has a stronger positive influence on whether a movie is watched compared to LevelOfViolence, which has a negative influence. The slope of the decision boundary indicates the trade-off between LevelOfViolence and CriticsRating in determining the classification.<br>
+
+## Plot of boundary line
+To plot the boundary line, we need to have the **Slope** and **y-intercept**, both are found above. Adding the **Bias** column is necessary because it accounts for the intercept in the model. In the Perceptron Learning Algorithm (PLA), the bias term allows the decision boundary to shift away from the origin, which helps in fitting the classification model better when the classes are not linearly separable through the origin.<br>
+
+- `theme_minimal()` applies a minimalistic theme to the plot for cleaner aesthetics.<br>
+- `geom_abline()` adds a line representing the decision boundary to the plot. This line is defined by a given slope and y_intercept.
+```{r Decision Boundary Plot}
+# Convert data to a data frame for plotting
+movies$Bias = 1  # Add bias column for plotting purposes
+
+# Plot data points
+plot = ggplot(movies, aes(x = LevelOfViolence, y = CriticsRating, color = factor(Watched))) +
+  geom_point(size = 3) +
+  scale_color_manual(values = c("-1" = "red", "1" = "blue"), labels = c("Not Watched", "Watched")) +
+  labs(title = "Decision Boundary of Perceptron", color = "Watch Status") +
+  theme_minimal()
+
+# Add decision boundary line to the plot
+plot <- plot + geom_abline(slope = slope, intercept = y_intercept, color = "black", linetype = "dashed")
+
+# Display the plot
+print(plot)
+```
+
+#### Interpretation for Decision Boundary Plot
+
+The decision boundary is a line that separates watched movies from not watched. Movies above the line are predicted to be watched, while those below are predicted not to be.<br>
+
+The slope of the line shows the relationship between violence and critics' ratings. A positive slope means that higher ratings are expected for more violent movies. The intercept shows the threshold for critics' ratings. Movies above this threshold are likely watched, regardless of violence.<br>
+
+The accuracy of the model depends on how well the line separates the blue and red points. If there's a lot of overlap, the model might not be accurate.<br>
