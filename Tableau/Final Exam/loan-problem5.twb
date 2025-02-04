@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0202.1238                               -->
+<workbook original-version='18.1' source-build='2023.3.3 (20233.24.0202.1238)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <SavingAnalyticObjects />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Loan-1 (Loan-1)' inline='true' name='federated.1xjbwli1vnxkto1brbms916qd2a9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Loan-1' name='excel-direct.08o592q07vbndy1ennl0j0e6awea'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/thaophamsmacbook/Library/CloudStorage/OneDrive-UniversityofthePacific/2024 Spring/MSBA 250/Final Exam/Loan-1.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.08o592q07vbndy1ennl0j0e6awea' name='Loan-1' table='[&apos;Loan-1$&apos;]' type='table'>
+          <columns gridOrigin='A1:M615:no:A1:M615:0' header='yes' outcome='2'>
+            <column datatype='string' name='Loan_ID' ordinal='0' />
+            <column datatype='string' name='Gender' ordinal='1' />
+            <column datatype='string' name='Married' ordinal='2' />
+            <column datatype='string' name='Dependents' ordinal='3' />
+            <column datatype='string' name='Education' ordinal='4' />
+            <column datatype='string' name='Self_Employed' ordinal='5' />
+            <column datatype='integer' name='ApplicantIncome' ordinal='6' />
+            <column datatype='real' name='CoapplicantIncome' ordinal='7' />
+            <column datatype='integer' name='LoanAmount' ordinal='8' />
+            <column datatype='integer' name='Loan_Amount_Term' ordinal='9' />
+            <column datatype='integer' name='Credit_History' ordinal='10' />
+            <column datatype='string' name='Property_Area' ordinal='11' />
+            <column datatype='integer' name='Loan_Status' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.08o592q07vbndy1ennl0j0e6awea' name='Loan-1' table='[&apos;Loan-1$&apos;]' type='table'>
+          <columns gridOrigin='A1:M615:no:A1:M615:0' header='yes' outcome='2'>
+            <column datatype='string' name='Loan_ID' ordinal='0' />
+            <column datatype='string' name='Gender' ordinal='1' />
+            <column datatype='string' name='Married' ordinal='2' />
+            <column datatype='string' name='Dependents' ordinal='3' />
+            <column datatype='string' name='Education' ordinal='4' />
+            <column datatype='string' name='Self_Employed' ordinal='5' />
+            <column datatype='integer' name='ApplicantIncome' ordinal='6' />
+            <column datatype='real' name='CoapplicantIncome' ordinal='7' />
+            <column datatype='integer' name='LoanAmount' ordinal='8' />
+            <column datatype='integer' name='Loan_Amount_Term' ordinal='9' />
+            <column datatype='integer' name='Credit_History' ordinal='10' />
+            <column datatype='string' name='Property_Area' ordinal='11' />
+            <column datatype='integer' name='Loan_Status' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M615:no:A1:M615:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Loan_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Loan_ID]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Loan_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Married</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Married]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Married</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dependents</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dependents]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Dependents</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Self_Employed</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Self_Employed]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Self_Employed</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ApplicantIncome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ApplicantIncome]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>ApplicantIncome</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CoapplicantIncome</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CoapplicantIncome]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>CoapplicantIncome</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LoanAmount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LoanAmount]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>LoanAmount</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Loan_Amount_Term</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Loan_Amount_Term]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Loan_Amount_Term</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Credit_History</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Credit_History]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Credit_History</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property_Area</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Property_Area]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Property_Area</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Loan_Status</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Loan_Status]</local-name>
+            <parent-name>[Loan-1]</parent-name>
+            <remote-alias>Loan_Status</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Applicant Income' datatype='integer' name='[ApplicantIncome]' role='measure' type='quantitative' />
+      <column caption='Coapplicant Income' datatype='real' name='[CoapplicantIncome]' role='measure' type='quantitative' />
+      <column caption='Credit History' datatype='integer' name='[Credit_History]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <column caption='Loan Amount' datatype='integer' name='[LoanAmount]' role='measure' type='quantitative' />
+      <column caption='Loan Amount Term' datatype='integer' name='[Loan_Amount_Term]' role='measure' type='quantitative' />
+      <column caption='Loan ID' datatype='string' name='[Loan_ID]' role='dimension' type='nominal' />
+      <column caption='Loan Status' datatype='integer' name='[Loan_Status]' role='measure' type='quantitative' />
+      <column caption='Property Area' datatype='string' name='[Property_Area]' role='dimension' type='nominal' />
+      <column caption='Self Employed' datatype='string' name='[Self_Employed]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Loan-1' datatype='table' name='[__tableau_internal_object_id__].[Loan-1_EB131AEA01764ADA81A5842BFA9D4A39]' role='measure' type='quantitative' />
+      <column-instance column='[Education]' derivation='Attribute' name='[attr:Education:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Gender]' derivation='Attribute' name='[attr:Gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Loan_Status]' derivation='Sum' name='[sum:Loan_Status:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:AdhocCluster:2:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <analytic-model>
+        <name>
+          <field name='[AnalyticModel:{1235b633-48bf-4f91-9ee9-24f592487ac2}]' />
+        </name>
+        <analytic-model-specifications class='cluster-specifications'>
+          <analysis-fields>
+            <field name='[federated.1xjbwli1vnxkto1brbms916qd2a9].[sum:Loan_Status:qk]' />
+            <field name='[federated.1xjbwli1vnxkto1brbms916qd2a9].[attr:Education:nk]' />
+          </analysis-fields>
+          <filter-fields />
+          <lod-fields />
+          <number-of-desired-clusters>0</number-of-desired-clusters>
+          <is-dissagregate>false</is-dissagregate>
+        </analytic-model-specifications>
+        <result-fields />
+      </analytic-model>
+      <analytic-model>
+        <name>
+          <field name='[AnalyticModel:{c4127e20-3d7a-480f-9e40-032cdb1d6aea}]' />
+        </name>
+        <analytic-model-specifications class='cluster-specifications'>
+          <analysis-fields>
+            <field name='[federated.1xjbwli1vnxkto1brbms916qd2a9].[attr:Gender:nk]' />
+            <field name='[federated.1xjbwli1vnxkto1brbms916qd2a9].[attr:Education:nk]' />
+          </analysis-fields>
+          <filter-fields />
+          <lod-fields />
+          <number-of-desired-clusters>0</number-of-desired-clusters>
+          <is-dissagregate>false</is-dissagregate>
+        </analytic-model-specifications>
+        <result-fields />
+      </analytic-model>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Loan-1' id='Loan-1_EB131AEA01764ADA81A5842BFA9D4A39'>
+            <properties context=''>
+              <relation connection='excel-direct.08o592q07vbndy1ennl0j0e6awea' name='Loan-1' table='[&apos;Loan-1$&apos;]' type='table'>
+                <columns gridOrigin='A1:M615:no:A1:M615:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Loan_ID' ordinal='0' />
+                  <column datatype='string' name='Gender' ordinal='1' />
+                  <column datatype='string' name='Married' ordinal='2' />
+                  <column datatype='string' name='Dependents' ordinal='3' />
+                  <column datatype='string' name='Education' ordinal='4' />
+                  <column datatype='string' name='Self_Employed' ordinal='5' />
+                  <column datatype='integer' name='ApplicantIncome' ordinal='6' />
+                  <column datatype='real' name='CoapplicantIncome' ordinal='7' />
+                  <column datatype='integer' name='LoanAmount' ordinal='8' />
+                  <column datatype='integer' name='Loan_Amount_Term' ordinal='9' />
+                  <column datatype='integer' name='Credit_History' ordinal='10' />
+                  <column datatype='string' name='Property_Area' ordinal='11' />
+                  <column datatype='integer' name='Loan_Status' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Problem 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Loan-1 (Loan-1)' name='federated.1xjbwli1vnxkto1brbms916qd2a9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xjbwli1vnxkto1brbms916qd2a9'>
+            <column auto-hidden='true' caption='Clusters (1)' datatype='integer' hidden='true' is-adhoc-cluster='true' name='[AdhocCluster:2]' parent-model='[AnalyticModel:{c4127e20-3d7a-480f-9e40-032cdb1d6aea}]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='-1' value='Cluster Outliers' />
+                <alias key='0' value='Not Clustered' />
+                <alias key='1' value='Cluster 1' />
+                <alias key='2' value='Cluster 2' />
+                <alias key='3' value='Cluster 3' />
+                <alias key='4' value='Cluster 4' />
+                <alias key='5' value='Cluster 5' />
+                <alias key='6' value='Cluster 6' />
+                <alias key='7' value='Cluster 7' />
+                <alias key='8' value='Cluster 8' />
+                <alias key='9' value='Cluster 9' />
+                <alias key='10' value='Cluster 10' />
+                <alias key='11' value='Cluster 11' />
+                <alias key='12' value='Cluster 12' />
+                <alias key='13' value='Cluster 13' />
+                <alias key='14' value='Cluster 14' />
+                <alias key='15' value='Cluster 15' />
+                <alias key='16' value='Cluster 16' />
+                <alias key='17' value='Cluster 17' />
+                <alias key='18' value='Cluster 18' />
+                <alias key='19' value='Cluster 19' />
+                <alias key='20' value='Cluster 20' />
+                <alias key='21' value='Cluster 21' />
+                <alias key='22' value='Cluster 22' />
+                <alias key='23' value='Cluster 23' />
+                <alias key='24' value='Cluster 24' />
+                <alias key='25' value='Cluster 25' />
+                <alias key='26' value='Cluster 26' />
+                <alias key='27' value='Cluster 27' />
+                <alias key='28' value='Cluster 28' />
+                <alias key='29' value='Cluster 29' />
+                <alias key='30' value='Cluster 30' />
+                <alias key='31' value='Cluster 31' />
+                <alias key='32' value='Cluster 32' />
+                <alias key='33' value='Cluster 33' />
+                <alias key='34' value='Cluster 34' />
+                <alias key='35' value='Cluster 35' />
+                <alias key='36' value='Cluster 36' />
+                <alias key='37' value='Cluster 37' />
+                <alias key='38' value='Cluster 38' />
+                <alias key='39' value='Cluster 39' />
+                <alias key='40' value='Cluster 40' />
+                <alias key='41' value='Cluster 41' />
+                <alias key='42' value='Cluster 42' />
+                <alias key='43' value='Cluster 43' />
+                <alias key='44' value='Cluster 44' />
+                <alias key='45' value='Cluster 45' />
+                <alias key='46' value='Cluster 46' />
+                <alias key='47' value='Cluster 47' />
+                <alias key='48' value='Cluster 48' />
+                <alias key='49' value='Cluster 49' />
+                <alias key='50' value='Cluster 50' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Loan Status' datatype='integer' name='[Loan_Status]' role='measure' type='quantitative' />
+            <column-instance column='[Education]' derivation='Attribute' name='[attr:Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='Attribute' name='[attr:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AdhocCluster:2]' derivation='None' is-adhoc-cluster='true' name='[none:AdhocCluster:2:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Loan_Status]' derivation='Sum' name='[sum:Loan_Status:qk]' pivot='key' type='quantitative' />
+            <style>
+              <style-rule element='mark'>
+                <encoding attr='color' field='[none:AdhocCluster:2:ok]' type='palette'>
+                  <map to='#4e79a7'>
+                    <bucket>1</bucket>
+                  </map>
+                  <map to='#59a14f'>
+                    <bucket>4</bucket>
+                  </map>
+                  <map to='#76b7b2'>
+                    <bucket>3</bucket>
+                  </map>
+                  <map to='#e15759'>
+                    <bucket>0</bucket>
+                  </map>
+                  <map to='#f28e2b'>
+                    <bucket>2</bucket>
+                  </map>
+                </encoding>
+              </style-rule>
+            </style>
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1xjbwli1vnxkto1brbms916qd2a9].[none:AdhocCluster:2:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1xjbwli1vnxkto1brbms916qd2a9].[sum:Loan_Status:qk]</rows>
+        <cols>[federated.1xjbwli1vnxkto1brbms916qd2a9].[none:Gender:nk]</cols>
+      </table>
+      <simple-id uuid='{B04EE33A-F22A-4607-89AF-845F9678DBAD}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Problem 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1xjbwli1vnxkto1brbms916qd2a9].[none:AdhocCluster:2:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xjbwli1vnxkto1brbms916qd2a9].[none:AdhocCluster:2:ok]</field>
+            <field>[federated.1xjbwli1vnxkto1brbms916qd2a9].[none:Education:nk]</field>
+            <field>[federated.1xjbwli1vnxkto1brbms916qd2a9].[none:Gender:nk]</field>
+            <field>[federated.1xjbwli1vnxkto1brbms916qd2a9].[none:Loan_ID:nk]</field>
+            <field>[federated.1xjbwli1vnxkto1brbms916qd2a9].[none:Married:nk]</field>
+            <field>[federated.1xjbwli1vnxkto1brbms916qd2a9].[none:Self_Employed:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A6CA4BA6-3391-481E-B32B-76A3E2300ABA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Problem 5' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3de3DV9YH38c/vXHJuuSckkBsQkgBRAgKighSqq6gVerf1qb3a2rrtPOvT
+      nc7Obmf2mXlm9nm2687sdnbHpz51u622uruWamttqohaRAUJiCjhEu6XcJIQOLmenOvv+SPh
+      JAeQGJJDIN/3a8Zxzu33++WEfN/n/K6Wbdu2AABGsSzLckz2QgAAJgcBAABDEQAAMBQBAABD
+      EQAAMBQBAABDEQAAMBQBAABDEQAAMBQBAABDEQAAMBQBAABDEQAAMBQBAABDEQAAMBQBAABD
+      EQAAMBQBAABDEQAAMBQBAABDEQAAMJRrshcAQGYlk0l1dXXJ4XAoEAjI5eLPHoP4lwCMUyKR
+      UGdnp9ra2tTV1SWv16vCwkJVVlbK7XZP9uKpt7dX//Iv/6KCggKtW7dOM2fOnOxFwlWCAADj
+      cPLkST355JM6fPiwenp6FA6H5XK5lJ2drerqaq1Zs0ZLliyZ1E/dkUhEf/zjH1VeXq6VK1cS
+      AKQQAOAy2Latt956Sz/96U+1d+9eJRIJWZYll8ulRCKhZDKpvXv3yuFw6Prrr2e1C65K/KsE
+      xsi2be3evVuPP/64mpubVVlZqfvvv1+rV69WUVGR+vr61NzcrOeee06BQECWZV10GolEQvF4
+      XFlZWXI4Rt8f49xrbNuW0+m85Gts21YymfzI043FYrJtW1lZWRddXkxNBAAYo76+Pr3++uva
+      v3+/ioqK9MMf/lBLly5NPZ6bm6ubb75ZixcvVjgcls/nSz1m27a6urrU0tKiY8eOKRQKqby8
+      XLNmzVJ1dbWysrIkDW64DQaDOnz4sEpLS5Wfn69Dhw6ptbVVkUhERUVFuu666zR9+vS0ATuR
+      SGjfvn1qa2tTb2+vfD6fnE6nbNu+4Oc4N4/9+/fr5MmTSiaTqqioUE1NjSoqKlLTPTfNrq4u
+      zZ49W6WlpWptbdXhw4fl9Xo1b948ZWdnZ+rtRgYRAGCM2tra1NTUpHg8rnXr1mnhwoUXfV5W
+      VlZqQJcGB//29nY988wz2rBhg9rb22Xbtlwul+bNm6cHHnhAt956q7xerxKJhN5++2099thj
+      qqur07Rp07R9+3a1tbVJkrxer1atWqW//du/lcfjkST19/drw4YNevbZZ3X06FGFw2G53W5N
+      mzZN8Xj8guXbs2ePfvGLX2jr1q3q6+uTJPl8Pi1fvlxf+cpXVF9fL8uyFI1G9dRTT2nHjh36
+      7ne/q7q6Ov385z/Xli1bVFNTo7/6q79SbW3tRL/NuAIIADBGvb29amtrUyAQ0PLlyz/y+v14
+      PK7GxkatX79ehYWFevDBB1VeXq4tW7Zo48aNeuqpp1RVVaW6ujpJgxtvu7q6tH37dnk8Hi1c
+      uFA33XSTjhw5oj179mjjxo164IEHNH/+fEnS5s2b9cQTT6itrU3V1dVatGiR3G63Dh48qFOn
+      TqUtSzQa1U9+8hNt27ZN1113ne688065XC49//zz2rRpk7KzszVjxgwVFhbKtm319fWpu7tb
+      R44c0ebNm/WnP/1JklLfMHBtIgDAGNi2rZ6eHp05c0YVFRXKzc1NrSrZsmWL/vM//1PhcDj1
+      /AULFuj+++9XYWGhuru79eyzz8rhcOi+++7Tpz/9aXm9XtXX1ysUCqmpqUlNTU2aNWtW2mqd
+      +vp6fec730mtItq/f7/+6Z/+SS0tLTp+/Ljmz5+vYDCoxsZGBYNBLVu2TD/4wQ9UWFgoy7LU
+      2tqqr3/962k/x5tvvqmdO3eqvLxcDz30kBYvXizLsjR37lw99NBDampq0p49e7RixYrUa2Kx
+      mF588UX19fVp4cKF+trXvqZZs2apuLg4w+86MoUAAGOQTCbV19enRCJxwUFVoVBI+/fvVzgc
+      VjQa1cDAgLxeryKRiCTp4MGDamtrU11dnebNmyen06lYLKbi4mItWLBAW7duVXNzswYGBtK2
+      G1RXV6u+vl65ubmSpNraWhUXF6ulpSW1aufo0aM6duyYJOn73/++Zs6cmYpIYWHhBT9HU1OT
+      otGoZsyYofr6eiWTSUnS9OnTNX/+fO3atUsnTpxI3X9OT0+P1qxZo0ceeSQtfrg2EQBgDBwO
+      h/Lz8+X1enXmzJnU4C4Nftp/5JFHFIvFtG3bNr3wwgtprz158qQkKRwOa/Pmzdq1a1fqsSNH
+      jsiyLHV0dFx0ff1IFxt0Ozs71dPTo6KiorTB/8O0trZKkrq7u/XrX/86dX88Hk/tERQKhRSN
+      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
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABjKNdkLgKtcIqHoyZOKt3fIysqSu7xMrsJCybIme8mME4vFdOJ0h84mE7I1+Omt
+      0uNTcXHxZC+akUKhU2o+HlY0Pni7KNtWTUWJfL6cyV2wMSAASGPbtqKHDim8fYeUSEiJhCIH
+      Dih2olWW1yPPnGq5Sksly5IjL1eB5cvlzM+f7MWesg6cPq0DnR2yJcViUR1oPam2ZFySJUu2
+      6rwBzZhRJsmW03LolpmzlePxTPJST022bevXr2zXQNItSeo4fVTvtPRqIDr4+Iz8pBbWVCgQ
+      KJBl2aouCWj5otpJXOLRWbZt25O9EFNZPB6Xbdtyu92TvSij6tu2Tf1vvq34qVOKHTsmjfJP
+      w/J5lVVdLXdlpbLvvENZZWVXaEmnvs7+Pr2w9wOd7u1XR1+PbEnWJb512bYth2WpurBIRQG/
+      Pnvdoiu3sAZY/6dm7Tt2Wjv2HlfMPrfm/MN+H7YsScU5WaqunKa1y+dqQXXpFVrSj86yLIsA
+      ZNjVHgDbthVvb1fXc89rYPsOJXt7Rx34L+ByyZmfp5xPrlPObbfJcjozs7AGSNq2nvzgFbV2
+      SqGBsKyLDDIj/2QvFgWHZakw4NOyqip9rLLmkuHAh7NtWzv2ndCTf3xXwVBEA9HBb15jmIIk
+      KT/Hp+yChP7xG+vky7p6xgECcAVczQGwk0mFt23T2Z8+oURv34VPcLnkLCiQw+uVLFuyLcm2
+      lejuVrKn56Kh8NTWqOgv/rtcrJces57IgJ7asU2HQ2flGDlo25ItWw5JeVkeeTyewffestTT
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
