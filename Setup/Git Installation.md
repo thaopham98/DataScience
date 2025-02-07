@@ -3,65 +3,62 @@
 ## Installation Details
 - **Version Installed:** Git 2.47.1.2
 - **Installation Path:** `C:\Program Files\Git`
-
-![Select Destination Location](images/Setup/Git Installation/Step 1 - Select Destination Location.png)
-
-- **Installation Date:** [Insert Date Here]
+- **Installation Date:** February 7, 2025
 
 ---
+### Step 1: Select Destination Location
+![Select Destination Location](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%201%20-%20Select%20Destination%20Location.png)
 
-## Selected Components
-1. **Additional Icon on the Desktop:**
-   - Enabled (for quick access to Git).
+### Step 2: Select Start Menu Folder
+![Select Start Menu Folder](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%202%20-%20Select%20Start%20Menu%20Folder.png)
 
-2. **Windows Explorer Integration:**
+### Step 3: Select Components
+![Select Components](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%203%20-%20Select%20Components.png)
+
+1. **Windows Explorer Integration:**
    - `Open Git Bash here`
    - `Open Git GUI here`
 
-3. **Git LFS (Large File Support):**
+2. **Git LFS (Large File Support):**
    - Enabled (for managing large files).
 
-4. **File Associations:**
+3. **File Associations:**
    - Associate `.git*` configuration files with the default text editor (VSCode).
    - Associate `.sh` files to be run with Bash.
 
-5. **Scalar (Git Add-on):**
+4. **Scalar (Git Add-on):**
    - Enabled (for managing large-scale repositories).
 
 ---
+### Step 4: Choosing the default editor used by Git
+![Choosing the default editor used by Git](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%204%20-%20Choosing%20the%20default%20editor%20used%20by%20Git.png)
 
-## Configuration Settings
-1. **Default Editor:**
-   - **Visual Studio Code** (set as Git’s default editor for commit messages and other tasks).
+### Step 5: Adjusting the name of the initial branch in new repositories
+![Adjusting the name of the initial branch in new repositories](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%205%20-%20Adijusting%20the%20name%20of%20the%20initial%20branch%20in%20new%20repositories.png)
 
-2. **Initial Branch Name:**
-   - **Let Git decide** (default branch name will be `main`).
+### Step 6: Adjusting your PATH environment
+![Adjusting your PATH environment](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%206%20-%20Adjusting%20your%20PATH%20environment.png)
 
-3. **PATH Environment:**
-   - **Git from the command line and also from 3rd-party software** (Git added to system PATH).
+### Step 7: Choosing the SSH executable
+![Choosing the SSH executable](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%207%20-%20Choosing%20the%20SSH%20executable.png)
 
-4. **SSH Executable:**
-   - **Use bundled OpenSSH** (default).
+### Step 8: Choosing HTTPS transport backend
+![Choosing HTTPS transport backend](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%208%20-%20Choosing%20HTTPS%20transport%20backend.png)
 
-5. **HTTPS Transport Backend:**
-   - **Use the OpenSSL library** (default).
+### Step 9: Configuring the line ending conversions
+![Configuring the line ending conversions](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%209%20-%20Configuring%20the%20line%20ending%20conversions.png)
 
-6. **Line Ending Conversions:**
-   - **Checkout Windows-style, commit Unix-style line endings** (recommended for cross-platform compatibility).
+### Step 10: Configuring the terminal emulator to use with Git Bash
+![Configuring the terminal emulator to use with Git Bash](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%2010%20-%20Configuring%20the%20terminal%20emulator%20to%20use%20with%20Git%20Bash.png)
 
-7. **Terminal Emulator:**
-   - **Use MinTTY** (default terminal for Git Bash).
+### Step 11: Choose the default behavior of `git pull`
+![Choose the default behavior of `git pull`](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%2011%20-%20Choose%20the%20default%20behavior%20of%20%60git%20pull%60.png)
 
-8. **Default Behavior of `git pull`:**
-   - **Fast-forward or merge** (default).
+### Step 12: Choose a credential helper
+![Choose a credential helper](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%2012%20-%20Choose%20a%20credential%20helper.png)
 
-9. **Credential Helper:**
-   - **Git Credential Manager** (for securely managing GitHub credentials).
-
-10. **Extra Options:**
-    - **Enable file system caching** (improves performance for large repositories).
-
----
+### Step 13: Configuring extra options
+![Configuring extra options](https://github.com/thaopham98/DataScience/blob/main/images/Setup/Git%20Installation/Step%2013%20-%20Configuring%20extra%20options.png)
 
 ## Post-Installation Verification
 1. **Verify Git Installation:**
@@ -74,8 +71,8 @@
 2. **Verify Git Configuration:**
    - Run the following commands to check your Git configuration:
      ```bash
-     git config --global user.name
-     git config --global user.email
+     git config --global user.name "user_name_here"
+     git config --global user.email "user_email_address_here@email.com"
      ```
    - Ensure these match your GitHub credentials.
 
