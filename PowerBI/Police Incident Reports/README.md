@@ -47,6 +47,9 @@ cd DataScience
 - Interact with filters to analyze specific districts, dates, and crime types.
 - Modify or extend the report as needed.
 
+#### Dashboard 1
+![Police Incident Reports - Dashboard 1](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%201.png)
+
 ## 📈 Future Enhancements
 - **Add external datasets** (e.g., weather conditions, demographic data) for deeper insights.
 - **Enhance predictive analytics** using machine learning integration.
