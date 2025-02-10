@@ -11,26 +11,69 @@ The dataset used in this report contains police incident records, including:
 - **Resolution**: The outcome of the incident (e.g., Arrest, Unresolved, etc.).
 
 ## 📊 Features
-The dashboard includes **6 interactive charts** for in-depth analysis:
+The dashboard includes **multiple interactive charts** across three pages, providing a comprehensive analysis of police incident reports. Below is a breakdown of the visualizations and their purpose:
 
+---
+
+### **Page 1: [Overview](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Overview.png)**
 1. **Number of Incidents by Day of Week** 📅  
-   - Visualizes the distribution of incidents across days of the week to identify peak crime days.
+   - A bar chart showing the distribution of incidents across days of the week to identify peak crime days.
 
 2. **Incidents by Police District** 📍  
-   - Displays the number of incidents reported in each police district using a **bar chart** or **map visualization**.
+   - A map bubble visualization displaying the number of incidents reported in each police district.
 
 3. **Top 5 Incident Categories** 🔍  
-   - Highlights the most frequent types of incidents reported, providing a breakdown of the top 5 crime categories.
+   - A bar chart highlighting the most frequent types of incidents reported, with **Larceny Theft** as the most common category.
 
 4. **Number of Incidents by Year** 📈  
-   - Tracks the trend of incidents over the years to identify increasing or decreasing crime rates.
+   - A bar chart tracking the trend of incidents over the years to identify increasing or decreasing crime rates.
 
 5. **Incident Resolution** ✅  
-   - Shows the outcomes of reported incidents (e.g., Arrest, Unresolved, etc.) to analyze resolution rates.
+   - A funnel chart showing the outcomes of reported incidents (e.g., Arrest, Unresolved, etc.) to analyze resolution rates.
 
-6. **Report Filing Insights** ⏳  
-   - Analyzes the time taken to file reports or other temporal patterns related to incident reporting.
+6. **Report Online Filing Insights** 🖥️  
+   - A donut chart displaying the proportion of incidents filed online versus offline.
 
+---
+
+### **Page 2: [Incident Details](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Incident%20Details.png)**
+1. **Count of Incident Number** 🔢  
+   - A card visualization showing the total number of incidents.
+
+2. **Incidents by Police District** 📊  
+   - A treemap visualization providing an alternative view of incident distribution by police district.
+
+3. **Violent vs. Non-violent Incidents** ⚖️  
+   - A bar chart comparing the number of violent, non-violent, and other incident types.
+
+4. **Incidents by Year, Quarter, and Month** 📅  
+   - A line chart showing trends in incidents over time, broken down by year, quarter, and month.
+
+5. **Subcategories of Larceny Theft** 🥧  
+   - A pie chart displaying the subcategories of **Larceny Theft**, the most frequent incident type.
+
+---
+
+### **Page 3: [Advanced Analysis](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Advanced%20Analysis.png)**
+1. **Filters** 🔍  
+   - A dropdown slicer for filtering data by **Year** and **Police District**.
+
+2. **Correlation Between Incident Type, Resolution, and File Online** 🔗  
+   - A heatmap visualizing the relationship between incident types, resolutions, and whether the incident was filed online.
+
+---
+
+### **Key Insights**
+- The dashboard provides a clear overview of crime trends, incident types, and resolution rates.
+- Users can drill down into specific details, such as subcategories of **Larceny Theft** or temporal patterns in incidents.
+- Advanced visualizations like the heatmap and stacked area chart enable deeper analysis of correlations and trends.
+
+---
+
+### **Future Enhancements**
+- Add a **slicer for Incident Category** to allow users to filter the pie chart and other visualizations by incident type.
+- Include **dynamic titles** for visualizations to reflect user selections (e.g., "Subcategories for [Selected Incident Category]").
+- Enhance interactivity with **bookmarks** to save default views (e.g., Larceny Theft as the default category).
 
 ## 🛠 Installation & Usage
 ### **1. Clone the Repository**
@@ -42,23 +85,12 @@ cd DataScience
 ### **2. Open the Report in Power BI**
 - Install **[Power BI Desktop](https://powerbi.microsoft.com/)** if not already installed.
 - Open the `Police Incident Reports.pbix` file in Power BI.
-- [Power BI](https://app.powerbi.com/groups/me/reports/cb3ab8b2-c1e6-428d-a78b-03833c7b1f93/9f99b2d38dae1b46d930?experience=power-bi)
+- [Power BI](https://app.powerbi.com/groups/me/reports/cb3ab8b2-c1e6-428d-a78b-03833c7b1f93/9f99b2d38dae1b46d930?experience=power-bi) 
 
 ### **3. Explore the Dashboard**
 - Interact with filters to analyze specific districts, dates, and crime types.
 - Modify or extend the report as needed.
 
-#### Police Incident Reports Dashboard
-![Overview](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Overview.png)
-
-![Incident Details](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Incident%20Details.png)
-
-![Advanced Analysis](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Advanced%20Analysis.png)
-
-## 📈 Future Enhancements
-- **Add external datasets** (e.g., weather conditions, demographic data) for deeper insights.
-- **Enhance predictive analytics** using machine learning integration.
-- **Improve geospatial analysis** by refining district-level mapping.
 
 ## 📝 Contributing
 Contributions are welcome! Feel free to submit pull requests or open issues for enhancements and bug fixes.
