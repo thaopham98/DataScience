@@ -42,6 +42,7 @@ cd DataScience
 ### **2. Open the Report in Power BI**
 - Install **[Power BI Desktop](https://powerbi.microsoft.com/)** if not already installed.
 - Open the `Police Incident Reports.pbix` file in Power BI.
+- [Power BI](https://app.powerbi.com/groups/me/reports/cb3ab8b2-c1e6-428d-a78b-03833c7b1f93/9f99b2d38dae1b46d930?experience=power-bi)
 
 ### **3. Explore the Dashboard**
 - Interact with filters to analyze specific districts, dates, and crime types.
