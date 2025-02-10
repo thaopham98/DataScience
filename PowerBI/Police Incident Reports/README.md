@@ -15,7 +15,7 @@ The dashboard includes **multiple interactive charts** across three pages, provi
 
 ---
 
-### **Page 1: [Overview](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Overview.png)**
+### **Page 1: ![Overview](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Overview.png)**
 1. **Number of Incidents by Day of Week** 📅  
    - A bar chart showing the distribution of incidents across days of the week to identify peak crime days.
 
@@ -36,7 +36,7 @@ The dashboard includes **multiple interactive charts** across three pages, provi
 
 ---
 
-### **Page 2: [Incident Details](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Incident%20Details.png)**
+### **Page 2: ![Incident Details](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Incident%20Details.png)**
 1. **Count of Incident Number** 🔢  
    - A card visualization showing the total number of incidents.
 
@@ -54,7 +54,7 @@ The dashboard includes **multiple interactive charts** across three pages, provi
 
 ---
 
-### **Page 3: [Advanced Analysis](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Advanced%20Analysis.png)**
+### **Page 3: ![Advanced Analysis](https://github.com/thaopham98/DataScience/blob/main/images/Police%20Incident%20Reports%20-%20Advanced%20Analysis.png)**
 1. **Filters** 🔍  
    - A dropdown slicer for filtering data by **Year** and **Police District**.
 
