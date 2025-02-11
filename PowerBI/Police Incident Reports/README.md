@@ -72,6 +72,53 @@ The dashboard includes **multiple interactive charts** across three pages, provi
 
 ---
 
+## DAX Measures & Calculated Columns
+Below are the key DAX formulas applied in this project:
+
+### Year-Quarter Formatting
+```DAX
+YearQuarter = FORMAT([Incident Date], "YYYY") & "-Q" & FORMAT([Incident Date], "Q")
+```
+*This column formats the incident date into a Year-Quarter format (e.g., 2024-Q1).*  
+
+### Full Police District Name
+```DAX
+Full_District = [Police District] & ", San Francisco, CA"
+```
+*This calculated column appends the city name to the police district for a complete location reference.*  
+
+### Incident Type Classification
+```DAX
+Incident_Type = 
+SWITCH(
+    TRUE(),
+    [Incident Category] IN { "Assault", "Homicide", "Rape", "Robbery", 
+                                    "Weapons Offense", "Weapons Carrying Etc", 
+                                    "Sex Offense", "Human Trafficking (A), Commercial Sex Acts", 
+                                    "Offences Against The Family And Children" }, "Violent",
+    
+    [Incident Category] IN { "Larceny Theft", "Burglary", "Fraud", "Forgery And Counterfeiting", 
+                                    "Embezzlement", "Stolen Property", "Motor Vehicle Theft", "Motor Vehicle Theft?", 
+                                    "Recovered Vehicle", "Traffic Violation Arrest", "Traffic Collision", 
+                                    "Vandalism", "Malicious Mischief", "Drug Offense", "Drug Violation", 
+                                    "Arson", "Liquor Laws", "Prostitution", "Suspicious Occ" }, "Non-Violent",
+    
+    "Other"
+)
+```
+*This measure categorizes incidents into 'Violent,' 'Non-Violent,' or 'Other' based on the type of crime.*  
+
+### Filed Online Percentage
+```DAX
+Filed Online Percentage = 
+DIVIDE(
+    CALCULATE(COUNT('Subset of Police_Department_Inc'[Incident ID]), 'Subset of Police_Department_Inc'[Filed Online] = TRUE()),
+    COUNT('Subset of Police_Department_Inc'[Incident ID]),
+    0
+)
+```
+---
+
 ### **Key Insights**
 - The dashboard provides a clear overview of crime trends, incident types, and resolution rates.
 - Users can drill down into specific details, such as subcategories of **Larceny Theft** or temporal patterns in incidents.
