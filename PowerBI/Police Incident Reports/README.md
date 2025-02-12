@@ -16,22 +16,19 @@ The dataset used in this report contains police incident records, including:
 Before importing the data into Power BI, an ETL/ELT process was performed to ensure accuracy and consistency:
 
 1. Uploading to Google Cloud:
-
-- The raw dataset was uploaded to Google Cloud for secure storage and centralized access.
-- Leveraged Google BigQuery as the ELT platform, allowing for scalable data transformation directly within the cloud.
+   - The raw dataset was uploaded to Google Cloud for secure storage and centralized access.
+   - Leveraged Google BigQuery as the ELT platform, allowing for scalable data transformation directly within the cloud.
 
 2. Data Cleaning in SQL:
-
-- Utilized SQL in Google BigQuery to perform data cleaning operations:
-   - Extraction & Loading: The dataset was extracted from its source and loaded into BigQuery.
-   - Transformation: Removed duplicates and null values, standardized date formats for Incident Date, and extracted time-based features (Year, Quarter, Month).
-- Categorization: Categorized incidents (e.g., into Violent and Non-Violent) and normalized categorical data where necessary.
-   - This ELT approach allowed heavy transformations to be executed in the cloud environment before data was consumed by Power BI.
+   - Utilized SQL in Google BigQuery to perform data cleaning operations:
+      - Extraction & Loading: The dataset was extracted from its source and loaded into BigQuery.
+      - Transformation: Removed duplicates and null values, standardized date formats for Incident Date, and extracted time-based features (Year, Quarter, Month).
+   - Categorization: Categorized incidents (e.g., into Violent and Non-Violent) and normalized categorical data where necessary.
+      - This ELT approach allowed heavy transformations to be executed in the cloud environment before data was consumed by Power BI.
 
 3. Importing into Power BI:
-
-- Connected Power BI to the cleaned dataset in BigQuery.
-- Established necessary relationships between tables and applied additional DAX measures for further analysis.
+   - Connected Power BI to the cleaned dataset in BigQuery.
+   - Established necessary relationships between tables and applied additional DAX measures for further analysis.
 
 
 ---
