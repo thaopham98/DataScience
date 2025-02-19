@@ -38,26 +38,25 @@ This repository contains data, Python analysis, and work done with other data sc
 
 ## Project Folders
 
-*   **`data`:** This folder contains the datasets used in the analysis. The datasets are typically in CSV, TSV, or other common data formats. *Describe the type of data stored here (e.g., "Customer data," "Sales data," etc.)*
+*   **[data](data):** This folder contains the datasets used in the analysis. The datasets are typically in CSV, TSV, or other common data formats. *Describe the type of data stored here (e.g., "Customer data," "Sales data," etc.)*
 
-*   **`python_analysis`:** This folder contains Jupyter Notebooks with examples of data analysis using the datasets provided in the `data` folder. Each notebook focuses on a specific analysis or project.  Notebooks in this folder should be considered finished and reviewed.
+*   **[python_analysis](python_analysis):** This folder contains Jupyter Notebooks with examples of data analysis using the datasets provided in the `data` folder. Each notebook focuses on a specific analysis or project.  Notebooks in this folder should be considered finished and reviewed.
     *   Load and preprocess the data.
     *   Perform exploratory data analysis (EDA).
     *   Apply machine learning models (if applicable).
     *   Visualize the results.
     *   Interpretations for visual and statistical results.
 
-*   **`draft`:** This folder contains Jupyter Notebooks that are still in progress.  These notebooks may be incomplete or contain experimental code.
+*   **[draft](draft):** This folder contains Jupyter Notebooks that are still in progress.  These notebooks may be incomplete or contain experimental code.
 
-*   **`RapidMiner`:** This folder contains documentation (PDF files) outlining the steps taken to create models in RapidMiner.
+*   **[RapidMiner](RapidMiner):** This folder contains documentation (PDF files) outlining the steps taken to create models in RapidMiner.
 
-*   **`Tableau`:** This folder contains Tableau workbooks (`.twbx` or `.twb`) and supporting documentation (e.g., `.docx` files with images of visualizations).
+*   **[Tableau](Tableau):** This folder contains Tableau workbooks (`.twbx` or `.twb`) and supporting documentation (e.g., `.docx` files with images of visualizations).
 
-*   **`RStudio`:** This folder contains R scripts (`.R` files) and any related data or output from data analysis performed in R.
+*   **[RStudio](RStudio):** This folder contains R scripts (`.R` files) and any related data or output from data analysis performed in R.
+    *    [My First R Markdown](https://thaopham98.github.io/DataScience/RStudio/My-First-R-Markdown-in-R-Studio.html)
 
-*   **`PowerBI`:** This folder contains Power BI files (`.pbix`) and any related documentation.
-
-*   **`Setup`:** This folder contains documentation on software installation and setup (Git, VS Code, Anaconda, etc.), including the `environment.yml` file for the project's Python environment.
+*   **[PowerBI](PowerBI):** This folder contains Power BI files (`.pbix`) and any related documentation.
 
 ## Usage Examples (Within `python_analysis`)
 
