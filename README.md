@@ -40,7 +40,7 @@ This repository contains data, Python analysis, and work done with other data sc
 
 *   **[data](data):** This folder contains the datasets used in the analysis. The datasets are typically in CSV, TSV, or other common data formats. *Describe the type of data stored here (e.g., "Customer data," "Sales data," etc.)*
 
-*   **[python_analysis](python_analysis):** This folder contains Jupyter Notebooks with examples of data analysis using the datasets provided in the `data` folder. Each notebook focuses on a specific analysis or project.  Notebooks in this folder should be considered finished and reviewed.
+*   **[python_analysis](python_analysis):** This folder contains Jupyter Notebooks with examples of data science and machine learning using the datasets provided in the `data` folder. Each notebook focuses on a specific analysis or project.  Notebooks in this folder should be considered finished and reviewed.
     *   Load and preprocess the data.
     *   Perform exploratory data analysis (EDA).
     *   Apply machine learning models (if applicable).
