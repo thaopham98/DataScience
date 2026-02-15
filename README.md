@@ -12,7 +12,7 @@ This repository contains data, Python analysis, and work done with other data sc
 
     ```bash
     conda env create -f Setup/DataScienceStudy.yml
-    conda activate DataScienceStudy  # Or whatever name is in your environment.yml
+    conda activate DataScienceStudy  # Or whatever name is in your .yml file is
     ```
 
 *   **Jupyter Notebook:** Install Jupyter Notebook (if not already included in your environment):
