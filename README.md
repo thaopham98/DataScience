@@ -8,10 +8,10 @@ This repository contains data, Python analysis, and work done with other data sc
 
 *   **Python:** It is **highly recommended** to use Anaconda to manage your Python environment. You can download it from [anaconda.com](https://www.anaconda.com/).
 
-*   **Anaconda Environment:**  A shared Anaconda environment is provided in the `Setup` folder as `environment.yml`.  You can recreate the environment using:
+*   **Anaconda Environment:**  A shared Anaconda environment is provided in the `Setup` folder as `DataScienceStudy.yml`.  You can recreate the environment using:
 
     ```bash
-    conda env create -f Setup/environment.yml
+    conda env create -f Setup/DataScienceStudy.yml
     conda activate DataScienceStudy  # Or whatever name is in your environment.yml
     ```
 
