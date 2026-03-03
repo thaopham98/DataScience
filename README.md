@@ -8,11 +8,19 @@ This repository contains data, Python analysis, and work done with other data sc
 
 *   **Python:** It is **highly recommended** to use Anaconda to manage your Python environment. You can download it from [anaconda.com](https://www.anaconda.com/).
 
+<<<<<<< HEAD
 *   **Anaconda Environment:**  A shared Anaconda environment is provided in the `Setup` folder as `environment.yml`.  You can recreate the environment using:
 
     ```bash
     conda env create -f Setup/environment.yml
     conda activate DataScienceStudy  # Or whatever name is in your environment.yml
+=======
+*   **Anaconda Environment:**  A shared Anaconda environment is provided in the `Setup` folder as `DataScienceStudy.yml`.  You can recreate the environment using:
+
+    ```bash
+    conda env create -f Setup/DataScienceStudy.yml
+    conda activate DataScienceStudy  # Or whatever name is in your .yml file is
+>>>>>>> f2aee8e3a6ea8ced7a1ca83491e34c2d7508d81a
     ```
 
 *   **Jupyter Notebook:** Install Jupyter Notebook (if not already included in your environment):
@@ -40,7 +48,11 @@ This repository contains data, Python analysis, and work done with other data sc
 
 *   **[data](data):** This folder contains the datasets used in the analysis. The datasets are typically in CSV, TSV, or other common data formats. *Describe the type of data stored here (e.g., "Customer data," "Sales data," etc.)*
 
+<<<<<<< HEAD
+*   **[python_analysis](python_analysis):** This folder contains Jupyter Notebooks with examples of data analysis using the datasets provided in the `data` folder. Each notebook focuses on a specific analysis or project.  Notebooks in this folder should be considered finished and reviewed.
+=======
 *   **[python_analysis](python_analysis):** This folder contains Jupyter Notebooks with examples of data science and machine learning using the datasets provided in the `data` folder. Each notebook focuses on a specific analysis or project.  Notebooks in this folder should be considered finished and reviewed.
+>>>>>>> f2aee8e3a6ea8ced7a1ca83491e34c2d7508d81a
     *   Load and preprocess the data.
     *   Perform exploratory data analysis (EDA).
     *   Apply machine learning models (if applicable).

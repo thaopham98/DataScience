@@ -58,8 +58,15 @@ Focuses on user behavior across different platforms and engagement with tracks.
 2. **Hover Over Visuals**: Tooltips provide additional details on data points.
 3. **Drill Through Analysis** *(Future Enhancement)*: Click on specific elements to navigate deeper into track and artist trends.
 
+<<<<<<< HEAD
+
+---
+**Author:** Thao Pham  
+**Last Updated:** 2/24/2025
+=======
 ## View the Report in Power BI
 - [Power BI](https://app.powerbi.com/groups/me/reports/270144f8-fc54-4402-af84-c2da0cdf0200/b608adbee4739a5e52cd?experience=power-bi)
 ---
 **Author:** Thao Pham  
 **Last Updated:** 6/6/2025
+>>>>>>> f2aee8e3a6ea8ced7a1ca83491e34c2d7508d81a
