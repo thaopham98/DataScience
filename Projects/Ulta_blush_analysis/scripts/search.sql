@@ -1,4 +1,4 @@
-USE sephora_blushes
+USE sephora_blushes;
 GO
 
 select * from sku_details sd 
