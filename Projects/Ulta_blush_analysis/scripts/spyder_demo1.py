@@ -11,17 +11,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 # import numpy as np
 
-# %%
-
 
 # %% LOAD DATASETS
 # rdf = pd.read_csv(r'../raw_data/ulta_clean_blush.csv', encoding='utf-8-sig')
-rdf = pd.read_csv(r"C:\Users\thaop\Desktop\Ulta_blush_analysis/raw_data/ulta_clean_blush.csv", encoding='utf-8-sig')
+rdf = pd.read_csv(r"../raw_data/ulta_clean_blush.csv", encoding='utf-8-sig')
 rdf.info()
 
-df = pd.read_csv(r"C:\Users\thaop\Desktop\Ulta_blush_analysis/clean_data/ulta_clean_blush_v1.csv", encoding="utf-8-sig")
+df = pd.read_csv(r"../clean_data/ulta_clean_blush_v1.csv", encoding="utf-8-sig")
 df.info()
-# %%
 
 # %% DISPLAY MISSING VALUES OF THE DATASET
 def plot_missing_values(df):
@@ -77,7 +74,6 @@ def plot_missing_values(df):
     
     plt.tight_layout()
     plt.show()
-# %%
 
 # %%
 plot_missing_values(rdf)
@@ -132,7 +128,7 @@ try:
     plot_missing_size(rdf)  # has 'size'
 except ValueError as e:
     print(f"ERROR: {e}")
-# %%
+
 
 
 
