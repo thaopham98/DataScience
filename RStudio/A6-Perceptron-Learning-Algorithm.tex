@@ -1,0 +1,565 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Assignment6},
+  pdfauthor={Thao Pham},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Assignment6}
+\author{Thao Pham}
+\date{2024-10-21}
+
+\begin{document}
+\maketitle
+
+\subsection{Assignment 6: Perceptron Learning
+Algorithm}\label{assignment-6-perceptron-learning-algorithm}
+
+\subsection{Introduction}\label{introduction}
+
+Use the Perceptron Learning Algorithm (PLA) to create a linear boundary
+to help Netflix make future recommendations to Ms.~X. Report the model
+and number of iterations it took for the wights to converge.
+
+Table of Contents: - Introduction - Read \& examine the data - Training
+a perceptron with PLA - Reporting the model - Plot of boundary line
+
+\subsection{Setup}\label{setup}
+
+Importing necessary library for this assignment, \texttt{ggplot2} to
+plot data.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{knitr}\SpecialCharTok{::}\NormalTok{opts\_chunk}\SpecialCharTok{$}\FunctionTok{set}\NormalTok{(}\AttributeTok{echo =} \ConstantTok{TRUE}\NormalTok{, }\AttributeTok{warning =} \ConstantTok{FALSE}\NormalTok{, }\AttributeTok{message =} \ConstantTok{FALSE}\NormalTok{)}
+\FunctionTok{library}\NormalTok{(ggplot2)}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{Read \& examine the data}\label{read-examine-the-data}
+
+Importing the movie data from the \emph{movieData.csv} and displaying
+the content of the file. By default, when reading a dataframe, a console
+message will be displayed. To hide the message, use
+\texttt{show\_col\_type\ =\ FALSE} as a parameter of
+\texttt{read\_csv()}. \texttt{movies} is created to store the dataset
+from \emph{movieData.csv}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# movies = read\_csv(\textquotesingle{}movieData.csv\textquotesingle{}, show\_col\_types = FALSE) \# reading movieData.csv}
+\NormalTok{movies }\OtherTok{=} \FunctionTok{read.csv}\NormalTok{(}\StringTok{\textquotesingle{}../data/movieData.csv\textquotesingle{}}\NormalTok{) }\CommentTok{\# reading movieData.csv}
+\NormalTok{movies }\CommentTok{\# displaying the data}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##    LevelOfViolence CriticsRating Watched
+## 1                1           1.2      -1
+## 2                1           3.5       1
+## 3                1           4.2       1
+## 4                2           3.9       1
+## 5                2           2.8      -1
+## 6                3           3.0      -1
+## 7                5           4.5      -1
+## 8                4           1.8      -1
+## 9                1           2.1      -1
+## 10               3           4.8       1
+## 11               5           4.9       1
+## 12               3           1.5      -1
+## 13               3           2.6      -1
+\end{verbatim}
+
+\paragraph{Interpretation of the dataset,
+movieData}\label{interpretation-of-the-dataset-moviedata}
+
+There are 3 columns, \emph{LevelOfViolence}, \emph{CriticsRating} and
+\emph{Watched}; inside the \emph{movieData.csv} with 13 data. -
+\emph{LevelOfViolence} is numerical variable with values. -
+\emph{CriticsRating} is a continuous variable with values. -
+\emph{Watched} has binary values with -1 as not watch movie and 1 as
+watched movie.
+
+\subsubsection{Data Visualization}\label{data-visualization}
+
+Displaying \emph{Critic Ratings} versus \emph{Level of Violence} and
+include a way to identify if Ms.~X watched it or not. -
+\texttt{ggplot(movies)}: This creates a new ggplot object using the
+movies data frame as the base. -
+\texttt{aes(y=CriticsRating,\ x=LevelOfViolence,\ color\ =\ factor(Watched))}:
+- \texttt{y=CriticsRating}: Sets the y-axis to represent the
+CriticsRating variable. - \texttt{x=LevelOfViolence}: Sets the x-axis to
+represent the LevelOfViolence variable. -
+\texttt{color\ =\ factor(Watched)}: Maps the Watched variable to the
+color aesthetic, effectively coloring points based on their Watched
+status. The factor() function is used to ensure that Watched is treated
+as a categorical variable. - \texttt{geom\_point(\ size=3)}: Adds
+scatter plot with the size 3 of the points to the graph. -
+\texttt{scale\_color\_manual(values\ =\ c("-1"\ =\ "red",\ "1"\ =\ "blue")\ ,\ labels\ =\ c("Not\ Watched",\ "Watched"))}:
+Manually specifies the colors for the different levels of the Watched
+variable. - \texttt{values\ =\ c("-1"\ =\ "red",\ "1"\ =\ "blue")}:
+Associates the value ``-1'' with the color red and the value ``1'' with
+the color blue. - \texttt{labels\ =\ c("Not\ Watched",\ "Watched")}:
+Replaces the default labels ``-1'' and ``1'' with more descriptive
+labels ``Not Watched'' and ``Watched''. -
+\texttt{labs(title\ =\ "Decision\ Boundary\ of\ Perceptron",\ color\ =\ "Watch\ Status")}:
+Setting the title of the graph to ``Decision Boundary of Perceptron''
+and the legend title for the color aesthetic to ``Watch Status''. -
+\texttt{xlab(\textquotesingle{}Critics\ Rating\textquotesingle{})}:
+Setting the label for the x-axis to ``Critics Rating''. -
+\texttt{ylab(\textquotesingle{}Level\ of\ Violence\textquotesingle{})}:
+Setting the label for the y-axis to ``Level of Violence''.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{ggplot}\NormalTok{(movies, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{y=}\NormalTok{CriticsRating, }\AttributeTok{x=}\NormalTok{LevelOfViolence, }\AttributeTok{color =} \FunctionTok{factor}\NormalTok{(Watched))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_point}\NormalTok{( }\AttributeTok{size=}\DecValTok{3}\NormalTok{) }\SpecialCharTok{+} \CommentTok{\# using shape in geom\_point parameter}
+  \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"{-}1"} \OtherTok{=} \StringTok{"red"}\NormalTok{, }\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{) , }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Not Watched"}\NormalTok{, }\StringTok{"Watched"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{"Decision Boundary of Perceptron"}\NormalTok{, }\AttributeTok{color =} \StringTok{"Watch Status"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{xlab}\NormalTok{(}\StringTok{\textquotesingle{}Critics Rating\textquotesingle{}}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{ylab}\NormalTok{(}\StringTok{\textquotesingle{}Level of Violence\textquotesingle{}}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\pandocbounded{\includegraphics[keepaspectratio]{A6-Perceptron-Learning-Algorithm_files/A6-Perceptron-Learning-Algorithm_files/figure-latex/Visualize the data-1.pdf}}
+\#\#\#\# Interpretation for Critics Rating vs.~Level of Violence From
+the plot, there is a weak correlation between \emph{Critics Rating} and
+\emph{Level of Violence} in the movies and \emph{watched} movies tend to
+have lower critics rating than \emph{not watched} movies.
+
+\subsection{Training a perceptron with Perceptron Learning
+Algorithm}\label{training-a-perceptron-with-perceptron-learning-algorithm}
+
+Hard coding for Perceptron Learning Algorithm (PLA).
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{set.seed(123)}: Setting the seed to \textbf{123}, this will be
+  used for the \texttt{runif()}.
+\item
+  \texttt{runif(ncol(movies),\ min\ =\ -1,\ max\ =\ 1)}: Initializing
+  weights that matches the number of columns in \texttt{movies} with the
+  minimum is \texttt{-1} and maximum is \texttt{1}.
+\item
+  \texttt{weights}: Storing the generated values from \texttt{runif()}.
+\item
+  \texttt{cbind()}: Combining 2 matrix into 1 and stores in
+  \texttt{new}.
+\item
+  \texttt{as.matrix(movies)}: Converting the \texttt{movies} data frame
+  into a matrix format.
+\item
+  \texttt{Bias\ =\ rep(1,ncol(movies))}: Replicating the value
+  \texttt{1} with \texttt{nrow(movies)} times of row in new column
+  called \texttt{Bias}.
+\item
+  \texttt{cat()}: Printing one or more values
+\item
+  \texttt{new}: Storing the combined matrix.
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{set.seed}\NormalTok{(}\DecValTok{123}\NormalTok{) }\CommentTok{\# making sure the runif() always return the same values}
+
+\NormalTok{weights }\OtherTok{\textless{}{-}} \FunctionTok{runif}\NormalTok{(}\FunctionTok{ncol}\NormalTok{(movies), }\AttributeTok{min =} \SpecialCharTok{{-}}\DecValTok{1}\NormalTok{, }\AttributeTok{max =} \DecValTok{1}\NormalTok{) }\CommentTok{\# generating weights that matches the number of columns in movies}
+\FunctionTok{cat}\NormalTok{(}\StringTok{\textquotesingle{}Weights:\textquotesingle{}}\NormalTok{, weights,}\StringTok{\textquotesingle{}}\SpecialCharTok{\textbackslash{}n}\StringTok{\textquotesingle{}}\NormalTok{) }\CommentTok{\# displaying the weights }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Weights: -0.424845 0.5766103 -0.1820462
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{new }\OtherTok{\textless{}{-}} \FunctionTok{cbind}\NormalTok{(}\AttributeTok{Bias =} \FunctionTok{rep}\NormalTok{(}\DecValTok{1}\NormalTok{, }\FunctionTok{nrow}\NormalTok{(movies)), }\FunctionTok{as.matrix}\NormalTok{(movies)) }\CommentTok{\#Attaching the Bias column with the data in movies}
+\NormalTok{new}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##       Bias LevelOfViolence CriticsRating Watched
+##  [1,]    1               1           1.2      -1
+##  [2,]    1               1           3.5       1
+##  [3,]    1               1           4.2       1
+##  [4,]    1               2           3.9       1
+##  [5,]    1               2           2.8      -1
+##  [6,]    1               3           3.0      -1
+##  [7,]    1               5           4.5      -1
+##  [8,]    1               4           1.8      -1
+##  [9,]    1               1           2.1      -1
+## [10,]    1               3           4.8       1
+## [11,]    1               5           4.9       1
+## [12,]    1               3           1.5      -1
+## [13,]    1               3           2.6      -1
+\end{verbatim}
+
+\paragraph{Interpretation for Initializing Weights and Attaching
+Bias}\label{interpretation-for-initializing-weights-and-attaching-bias}
+
+By setting the seed to \texttt{123}, the \texttt{runif()} returns the
+same values of \texttt{weights}, which are -0.4248450, 0.5766103, and
+-0.1820462. The contents of \texttt{new} are Bias, LevelOfViolence,
+CriticsRating, and Watched with 13 data points.
+
+\subsubsection{Perceptron Learning Algorithm
+(PLA)}\label{perceptron-learning-algorithm-pla}
+
+\begin{itemize}
+\item
+  Iterating until \texttt{weights} is converged.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Tracking the number of iterations
+  \item
+    Grabbing a data point and divides it into \texttt{inputData}( Bias,
+    LevelOfViolence, and CriticsRating) and
+    \texttt{targetData}(Watched).
+  \item
+    Calculating the net input using the dot product.
+  \item
+    Apply the activation function using \texttt{sign()} to get the
+    predicted values.
+  \item
+    Comparing the predicted and actual values. If they aren't equal to
+    each other, update the \texttt{weights} vector by multiple the
+    \texttt{targetData} with transposed \texttt{inputData}, then added
+    with the current \texttt{weights}.
+  \end{itemize}
+\item
+  Reporting number of iterations it took for weights to converge.
+\item
+  Returning the final weights.
+\item
+  \texttt{Sign()}: Returning 1 if the value is greater positive and
+  returning -1 if the value is negative.
+\item
+  \texttt{cat()}: Printing one or more values
+\item
+  \texttt{as.matrix()}: Converting to matrix
+\item
+  \texttt{sum()}: Adding function
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Initialize variables}
+\NormalTok{iterations }\OtherTok{\textless{}{-}} \DecValTok{0} \CommentTok{\# number of iteration through the loop}
+\NormalTok{converged }\OtherTok{\textless{}{-}} \ConstantTok{FALSE} \CommentTok{\# condition for the loop}
+
+
+\ControlFlowTok{while}\NormalTok{ (}\SpecialCharTok{!}\NormalTok{converged ) }
+\NormalTok{  \{}
+\NormalTok{  converged }\OtherTok{\textless{}{-}} \ConstantTok{TRUE}  \CommentTok{\# Assume convergence is TRUE until}
+\NormalTok{  incorrect\_counts }\OtherTok{\textless{}{-}} \DecValTok{0}  \CommentTok{\# Reset count for each iteration}
+\NormalTok{  iterations }\OtherTok{\textless{}{-}}\NormalTok{ iterations }\SpecialCharTok{+} \DecValTok{1}
+  
+  \CommentTok{\# Loop through each row/data point}
+  \ControlFlowTok{for}\NormalTok{ (i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\FunctionTok{nrow}\NormalTok{(movies)) \{}
+    \CommentTok{\# Separate the inputData and targetData for the current row}
+\NormalTok{    inputData }\OtherTok{=} \FunctionTok{as.numeric}\NormalTok{(new[i, }\DecValTok{1}\SpecialCharTok{:}\DecValTok{3}\NormalTok{])  }\CommentTok{\# Includes Bias, LevelOfViolence, and CriticsRating}
+\NormalTok{    targetData }\OtherTok{=} \FunctionTok{as.numeric}\NormalTok{(new[i, }\DecValTok{4}\NormalTok{])   }\CommentTok{\# Watched label ({-}1 or 1)}
+    
+    \CommentTok{\# Apply the activation function using sign() with dot product}
+\NormalTok{    prediction }\OtherTok{=} \FunctionTok{sign}\NormalTok{(}\FunctionTok{sum}\NormalTok{(inputData }\SpecialCharTok{*}\NormalTok{ weights))}
+    
+    \CommentTok{\# Check if the prediction is incorrect}
+    \ControlFlowTok{if}\NormalTok{ (prediction }\SpecialCharTok{!=}\NormalTok{ targetData) \{}
+      \CommentTok{\# Update the weights}
+\NormalTok{      weights }\OtherTok{=}\NormalTok{ weights }\SpecialCharTok{+}\NormalTok{ targetData }\SpecialCharTok{*} \FunctionTok{t}\NormalTok{(}\FunctionTok{as.matrix}\NormalTok{(inputData))}
+      
+      \CommentTok{\# Increment the count of incorrect predictions}
+\NormalTok{      incorrect\_counts }\OtherTok{=}\NormalTok{ incorrect\_counts}\SpecialCharTok{+}\DecValTok{1}
+\NormalTok{      converged }\OtherTok{=} \ConstantTok{FALSE} 
+\NormalTok{    \}}
+\NormalTok{  \}}
+  \ControlFlowTok{if}\NormalTok{ (incorrect\_counts }\SpecialCharTok{==} \DecValTok{0}\NormalTok{) \{}
+    \FunctionTok{cat}\NormalTok{(}\StringTok{"Convergence reached.}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+    \ControlFlowTok{break} \CommentTok{\# stop the loop}
+\NormalTok{  \}}
+  
+  \CommentTok{\# Stop if the number of iterations exceeds a reasonable threshold}
+  \ControlFlowTok{if}\NormalTok{ (iterations }\SpecialCharTok{\textgreater{}} \DecValTok{1000}\NormalTok{) \{}
+    \FunctionTok{cat}\NormalTok{(}\StringTok{"Exceeded maximum number of iterations. Stopping training.}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+    \ControlFlowTok{break} \CommentTok{\# stop the loop}
+\NormalTok{  \}}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Convergence reached.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Output the results}
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Training completed in"}\NormalTok{, iterations, }\StringTok{"iterations.}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Training completed in 35 iterations.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Final weights:"}\NormalTok{, weights, }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Final weights: -26.42484 -8.42339 14.21795
+\end{verbatim}
+
+\subsection{Reporting the model}\label{reporting-the-model}
+
+The Perceptron learning algorithm is a binary classifier that learns a
+linear decision boundary to separate two classes. In this case, the
+Perceptron was trained to predict whether a movie will be watched
+(represented by 1) or not watched (represented by -1) based on two
+features: \emph{LevelOfViolence} and \emph{CriticsRating.} The model is
+built with a bias term included. The Perceptron Learning Algorithm (PLA)
+was trained using the movieData dataset. After 39 iterations, the model
+converged, resulting in the following final weights: - Bias term:
+-28.42484 - Weight for LevelOfViolence: -8.42339 - Weight for
+CriticsRating: 14.71795
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Final weights:"}\NormalTok{, weights, }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Final weights: -26.42484 -8.42339 14.21795
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Number of iterations:"}\NormalTok{, iterations, }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Number of iterations: 35
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Output the final PLA model}
+\FunctionTok{cat}\NormalTok{(}\StringTok{"The final model is: Sign("}\NormalTok{,weights[}\DecValTok{1}\NormalTok{], }\StringTok{" + "}\NormalTok{, weights[}\DecValTok{2}\NormalTok{], }\StringTok{" * x1 + "}\NormalTok{, weights[}\DecValTok{3}\NormalTok{], }\StringTok{" * x2)}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## The final model is: Sign( -26.42484  +  -8.42339  * x1 +  14.21795  * x2)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Equation for the decision boundary}
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Equation: "}\NormalTok{, weights[}\DecValTok{2}\NormalTok{], }\StringTok{"* x1 + "}\NormalTok{, weights[}\DecValTok{3}\NormalTok{], }\StringTok{"* x2 ="}\NormalTok{, }\SpecialCharTok{{-}}\NormalTok{weights[}\DecValTok{1}\NormalTok{], }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Equation:  -8.42339 * x1 +  14.21795 * x2 = 26.42484
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Calculate slope and y{-}intercept for visualization}
+\NormalTok{slope }\OtherTok{=} \SpecialCharTok{{-}}\NormalTok{weights[}\DecValTok{2}\NormalTok{] }\SpecialCharTok{/}\NormalTok{ weights[}\DecValTok{3}\NormalTok{]}
+\NormalTok{y\_intercept }\OtherTok{=} \SpecialCharTok{{-}}\NormalTok{weights[}\DecValTok{1}\NormalTok{] }\SpecialCharTok{/}\NormalTok{ weights[}\DecValTok{3}\NormalTok{]}
+
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Slope:"}\NormalTok{, slope, }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Slope: 0.5924474
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Y{-}intercept:"}\NormalTok{, y\_intercept, }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Y-intercept: 1.858555
+\end{verbatim}
+
+\paragraph{Interpretation for Results}\label{interpretation-for-results}
+
+The model predicts whether a movie will be watched or not (binary
+classification). The weights suggest that CriticsRating has a stronger
+positive influence on whether a movie is watched compared to
+LevelOfViolence, which has a negative influence. The slope of the
+decision boundary indicates the trade-off between LevelOfViolence and
+CriticsRating in determining the classification.
+
+\subsection{Plot of boundary line}\label{plot-of-boundary-line}
+
+To plot the boundary line, we need to have the \textbf{Slope} and
+\textbf{y-intercept}, both are found above. Adding the \textbf{Bias}
+column is necessary because it accounts for the intercept in the model.
+In the Perceptron Learning Algorithm (PLA), the bias term allows the
+decision boundary to shift away from the origin, which helps in fitting
+the classification model better when the classes are not linearly
+separable through the origin.
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{theme\_minimal()} applies a minimalistic theme to the plot for
+  cleaner aesthetics.
+\item
+  \texttt{geom\_abline()} adds a line representing the decision boundary
+  to the plot. This line is defined by a given slope and y\_intercept.
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Convert data to a data frame for plotting}
+\NormalTok{movies}\SpecialCharTok{$}\NormalTok{Bias }\OtherTok{=} \DecValTok{1}  \CommentTok{\# Add bias column for plotting purposes}
+
+\CommentTok{\# Plot data points}
+\NormalTok{plot }\OtherTok{=} \FunctionTok{ggplot}\NormalTok{(movies, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ LevelOfViolence, }\AttributeTok{y =}\NormalTok{ CriticsRating, }\AttributeTok{color =} \FunctionTok{factor}\NormalTok{(Watched))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_point}\NormalTok{(}\AttributeTok{size =} \DecValTok{3}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"{-}1"} \OtherTok{=} \StringTok{"red"}\NormalTok{, }\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Not Watched"}\NormalTok{, }\StringTok{"Watched"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{"Decision Boundary of Perceptron"}\NormalTok{, }\AttributeTok{color =} \StringTok{"Watch Status"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{theme\_minimal}\NormalTok{()}
+
+\CommentTok{\# Add decision boundary line to the plot}
+\NormalTok{plot }\OtherTok{\textless{}{-}}\NormalTok{ plot }\SpecialCharTok{+} \FunctionTok{geom\_abline}\NormalTok{(}\AttributeTok{slope =}\NormalTok{ slope, }\AttributeTok{intercept =}\NormalTok{ y\_intercept, }\AttributeTok{color =} \StringTok{"black"}\NormalTok{, }\AttributeTok{linetype =} \StringTok{"dashed"}\NormalTok{)}
+
+\CommentTok{\# Display the plot}
+\FunctionTok{print}\NormalTok{(plot)}
+\end{Highlighting}
+\end{Shaded}
+
+\pandocbounded{\includegraphics[keepaspectratio]{A6-Perceptron-Learning-Algorithm_files/A6-Perceptron-Learning-Algorithm_files/figure-latex/Decision Boundary Plot-1.pdf}}
+
+\paragraph{Interpretation for Decision Boundary
+Plot}\label{interpretation-for-decision-boundary-plot}
+
+The decision boundary is a line that separates watched movies from not
+watched. Movies above the line are predicted to be watched, while those
+below are predicted not to be.
+
+The slope of the line shows the relationship between violence and
+critics' ratings. A positive slope means that higher ratings are
+expected for more violent movies. The intercept shows the threshold for
+critics' ratings. Movies above this threshold are likely watched,
+regardless of violence.
+
+The accuracy of the model depends on how well the line separates the
+blue and red points. If there's a lot of overlap, the model might not be
+accurate.
+
+\end{document}
