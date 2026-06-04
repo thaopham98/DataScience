@@ -81,7 +81,6 @@ plot_missing_values(rdf)
 plot_missing_values(df)
 
 # %%
-
 # msno.matrix(rdf) # will need to run `pip install missingno`
 
 
@@ -100,7 +99,6 @@ plt.xlabel('Count')
 plt.title('Number of Missing Size Value per Brand')
 plt.tight_layout() # Prevents labels from getting cut off
 plt.show()
-# %%
 
 # %% 
 def plot_missing_size(dataset):
