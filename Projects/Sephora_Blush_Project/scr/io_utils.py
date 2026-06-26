@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import json
+import json, logging
 from pathlib import Path
 
 import pandas as pd
@@ -18,8 +18,15 @@ def write_csv_utf8(df: pd.DataFrame, path: str | Path, index: bool = False, **kw
 
 def read_json_utf8(path: str | Path):
     """Read a JSON file, always as UTF-8."""
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        logging.error(f"File not found: {path}")
+        raise
+    except json.JSONDecodeError as e:
+        logging.error(f"Failed to decode JSON from {path}: {e}")
+        raise
 
 
 def write_json_utf8(obj, path: str | Path, indent: int = 2) -> None:
