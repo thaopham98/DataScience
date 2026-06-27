@@ -21,11 +21,11 @@ PRODUCT_COLUMNS = [
 
 SHADE_COLUMNS = [
     "sku_id", "product_id", "shade_name", "list_price", "sale_price",
-    "in_stock", "is_final_sale", "badge", "swatch_img_url",
+    "in_stock", "is_final_sale", "badge", "shade_img_url", "color_img_url",
 ]
 
 LEGACY_SHADE_COLUMN_ALIASES = {
-    "image_url": "swatch_img_url",
+    "image_url": "shade_img_url",
 }
 
 UNIT_COLUMNS = ["oz_value", "g_value", "ml_value", "fl_oz_value"]

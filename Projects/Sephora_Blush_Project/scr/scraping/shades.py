@@ -33,16 +33,19 @@ def extract_shade_name(sku: dict) -> str | None:
 
 def _parse_sku(sku: dict) -> dict:
     swatch = sku.get("skuImages", {})
+    sku_id = sku.get("skuId")
+
     return {
-        "sku_id": sku.get("skuId"),
+        "sku_id": sku_id,
         "shade_name": extract_shade_name(sku),
         "list_price": sku.get("listPrice"),
         "sale_price": sku.get("salePrice"),
         "in_stock": sku.get("isEligible", False),
         "is_final_sale": sku.get("isFinalSale", False),
         "badge": sku.get("badgeAltText"),
-        "swatch_img_url": swatch.get("imageUrl"),
+        "shade_img_url": swatch.get("imageUrl"),
         "swatch_alt": swatch.get("altText") or None,
+        "color_img_url": f"https://www.sephora.com/productimages/sku/s{sku_id}+sw.jpg" if sku_id else None, # color of the shades
     }
 
 

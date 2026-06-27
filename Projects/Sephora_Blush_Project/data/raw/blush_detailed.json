@@ -1,254 +1,5 @@
 [
   {
-    "product_id": "P458747",
-    "brand": "PATRICK TA",
-    "product_name": "Major Headlines Double-Take Crème & Powder Blush Duo",
-    "sku_id": "2990125",
-    "list_price": "$25.00 - $40.00",
-    "sale_price": null,
-    "on_sale": false,
-    "rating": 4.6419,
-    "reviews": 4248,
-    "more_colors": 16,
-    "is_bestseller": true,
-    "is_new": true,
-    "is_sephora_exclusive": true,
-    "is_limited_edition": false,
-    "is_online_only": true,
-    "sponsored": false,
-    "product_url": "https://www.sephora.com/product/patrick-ta-major-headlines-cream-powder-blush-duo-P458747?skuId=2990125",
-    "hero_image_url": "https://www.sephora.com/productimages/sku/s2990125-main-zoom.jpg?imwidth=270",
-    "target_url": "/product/patrick-ta-major-headlines-cream-powder-blush-duo-P458747?skuId=2990125",
-    "short_description": "A viral duo compact of powder and cream blush formulas to achieve long-wearing bold color that melts into skin for a beautiful, radiant glow.",
-    "long_description": "What it is: A viral duo compact of powder and cream blush formulas to achieve long-wearing bold color that melts into skin for a beautiful, radiant glow. Finish: Radiant Formulation: Cream, Pressed Powder Highlighted Ingredients: - Patented Biomimetic Pigments: Mirror the skin's ceramide structure, ensuring adhesion, true color, and the most natural finish. - Micronized Pigments: Provide even, flawless payoff, a luminous finish, and extended wear. - Creamy Emollient Base: Flawlessly blends into skin, provides a dewy finish, and locks in color for extended wear. Ingredient Callouts: Free of sulfates SLS and SLES, parabens, formaldehydes, formaldehyde-releasing agents, phthalates, mineral oil, retinyl palmitate, oxybenzone, coal tar, hydroquinone, triclosan, and triclocarban, and contains less than one percent of synthetic fragrances. This product is cruelty-free and gluten-free. W hat Else You Need to Know: This bestselling blush duo is inspired by Patrick’s viral cream-over-powder blush technique. The rich pigments blend together for a long-wearing skin-like finish to create a lit-from-within glow.",
-    "how_to_use": "Suggested Usage: -For a sheer look and dewy glow, dab and blend the cream formula on cheeks. -For a soft, airbrushed finish, sweep the powder onto the apples of the cheeks with a fluffy blush brush. -For ultimate color payoff, layer the cream formula over the powder for a glossy, dimensional look. -For best results, pair with Patrick Ta Dual Ended Blush Brush (sold separately).",
-    "loves_count": 2651519,
-    "ingredients": "Crème: PPG-3 Benzyl Ether Myristate, Phenyl Trimethicone, Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Diisostearyl Malate, Ethylhexyl Stearate, Triisostearyl Citrate, Polyethylene, Nylon 12, Polybutene, Polysilicone-1 Crosspolymer, Silica, Octyldodecanol, Quaternium-90 Bentonite, Propylene Carbonate, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate. May Contain (+/-): Titanium Dioxide (CI 77891), Iron Oxide (CI 77492), Blue 1 Lake (CI 42090), Red 7 Lake (CI 15850), Red 30 (Cl 73360). Powder: Synthetic Fluorphlogopite, Mica, Magnesium Myristate, Nylon 12, Silica, Isostearyl Neopentaoate, Glyceryl Triacetyl Ricinoleate, Capric/Caprylic Triglyceride, PEG-12 Dimethicone, Tocopheryl Acetate, Polyhydroxystearic Acid, PEG-12 Allyl Ether, Caprylyl Glycol, Trimyristin, Hydrogenated Lecithin, Hexylene Glycol, Phenoxyethanol. May Contain (+/-): Iron Oxide (Cl 77492), Iron Oxide (Cl 77499), Titanium Dioxide (CI 77891), Tin Oxide (CI 77861), Red 6 Lake (CI 15850), Red 30 (Cl73360), Ultramarines (CI 77007), Bismuth Oxychloride (CI 77163).",
-    "size": "0.17 oz crème and 0.17 oz powder/5 g crème and 5 g powder",
-    "shades": [
-      {
-        "sku_id": "2990125",
-        "shade_name": "Out Of Office",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2990125-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2742492",
-        "shade_name": "Just Enough",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2742492-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2742500",
-        "shade_name": "Not Too Much",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2742500-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2555894",
-        "shade_name": "She's Vibrant",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2555894-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2555886",
-        "shade_name": "She's a Doll",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2555886-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2363844",
-        "shade_name": "She's That Girl",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2363844-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2699379",
-        "shade_name": "She's Flushed",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2699379-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2568665",
-        "shade_name": "She's Blushing",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2568665-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2699361",
-        "shade_name": "She's Wanted",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2699361-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2364289",
-        "shade_name": "She's So LA",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2364289-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2906113",
-        "shade_name": "She's That Girl",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2906113-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2926020",
-        "shade_name": "She Goes To The Gym",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2926020-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2925998",
-        "shade_name": "She's Seductive",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2925998-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2926004",
-        "shade_name": "She Left Me On Red",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2926004-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2925980",
-        "shade_name": "Soft Launch",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2925980-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2849768",
-        "shade_name": "She Goes To The Gym",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2849768-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2849784",
-        "shade_name": "She's Seductive",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2849784-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2849776",
-        "shade_name": "She Left Me On Red",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2849776-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2849750",
-        "shade_name": "She Knows Who She Is",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2849750-main-zoom.jpg",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2926012",
-        "shade_name": "Thank Me Later",
-        "list_price": "$40.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2926012-main-zoom.jpg",
-        "swatch_alt": null
-      }
-    ]
-  },
-  {
     "product_id": "P97989778",
     "brand": "Rare Beauty by Selena Gomez",
     "product_name": "Soft Pinch Liquid Blush",
@@ -256,8 +7,8 @@
     "list_price": "$16.00 - $25.00",
     "sale_price": null,
     "on_sale": false,
-    "rating": 4.543,
-    "reviews": 12533,
+    "rating": 4.5429,
+    "reviews": 12534,
     "more_colors": 17,
     "is_bestseller": true,
     "is_new": false,
@@ -271,7 +22,7 @@
     "short_description": "A weightless liquid blush that delivers high-impact color with just one dot. Blends seamlessly for a pinch-perfect flush that lasts up to 12 hours.",
     "long_description": "What it is: A weightless liquid blush that delivers high-impact color with just one dot. Blends seamlessly for a pinch-perfect flush that lasts up to 12 hours. Ingredient Callouts: Free of sulfates SLS and SLES, parabens, formaldehydes, formaldehyde-releasing agents, phthalates, mineral oil, retinyl palmitate, oxybenzone, coal tar, hydroquinone, triclosan, and triclocarban, and contains less than one percent of synthetic fragrances. This product is also vegan and cruelty-free. What Else You Need to Know: This featherlight liquid blush features pure color pigments in a transparent base for true color payoff on all skin tones. In matte and dewy finishes, it’s made with a botanical blend to calm and nourish skin. Derm-tested, non-comedogenic, and safe for sensitive skin. This product is an Allure Best of Beauty award winner. Real results: 100% said it applies easily and wears evenly 100% said the texture is silky and glides on smoothly 100% said it stays in place upon application and is comfortable to wear 97% said the color blends seamlessly *In an independent consumer study of 32 subjects",
     "how_to_use": "Suggested Usage: -Gently remove excess product from applicator. -Use the doe-foot applicator and place one or two dots on each cheek. -Use fingertips or the Soft Pinch Blush Brush (sold separately) and gently pat into skin for a seamless finish. -For more control, apply blush to the back of your hand first, then use the Soft Pinch Blush Brush (sold separately) to pick up and blend onto cheeks. -For a dewy, lit-from-within glow, mix Soft Pinch Liquid Blush with Positive Light Liquid Luminizer (sold separately) before applying onto cheeks. -The perfect blush to mix, layer and enhance with other liquid or powder formulas, use it with contour, bronzer, powder blush, highlighter, etc.",
-    "loves_count": 3179039,
+    "loves_count": 3179392,
     "ingredients": "Hydrogenated Polyisobutene, Hydrogenated Poly(C6-14 Olefin), Mica, Octyldodecanol, Ethylene/Propylene/Styrene Copolymer, Trimethylsiloxysilicate, Isododecane, 1,2-Hexanediol, Disteardimonium Hectorite, Sorbitan Sesquioleate, Propylene Carbonate, Triethoxycaprylylsilane, Aluminum Hydroxide, Helianthus Annuus (Sunflower) Seed Oil, Gardenia Florida Fruit Extract, Nelumbo Nucifera Flower Extract, Nymphaea Odorata Root Extract, Titanium Dioxide (CI 77891), Red 7 Lake (CI 15850), Iron Oxides (CI 77491), Iron Oxides (CI 77499).",
     "size": "0.25 oz/7.5 mL",
     "shades": [
@@ -283,8 +34,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2911741-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2911741-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2911741+sw.jpg"
       },
       {
         "sku_id": "2518959",
@@ -294,8 +46,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2518959-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2518959-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2518959+sw.jpg"
       },
       {
         "sku_id": "2518983",
@@ -305,8 +58,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2518983-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2518983-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2518983+sw.jpg"
       },
       {
         "sku_id": "2518991",
@@ -316,8 +70,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2518991-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2518991-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2518991+sw.jpg"
       },
       {
         "sku_id": "2362085",
@@ -327,8 +82,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2362085-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2362085-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2362085+sw.jpg"
       },
       {
         "sku_id": "2354140",
@@ -338,8 +94,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2354140-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2354140-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2354140+sw.jpg"
       },
       {
         "sku_id": "2362101",
@@ -349,8 +106,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2362101-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2362101-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2362101+sw.jpg"
       },
       {
         "sku_id": "2362127",
@@ -360,8 +118,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2362127-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2362127-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2362127+sw.jpg"
       },
       {
         "sku_id": "2362143",
@@ -371,8 +130,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2362143-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2362143-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2362143+sw.jpg"
       },
       {
         "sku_id": "2362119",
@@ -382,8 +142,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2362119-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2362119-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2362119+sw.jpg"
       },
       {
         "sku_id": "2640241",
@@ -393,8 +154,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2640241-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2640241-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2640241+sw.jpg"
       },
       {
         "sku_id": "2640258",
@@ -404,8 +166,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2640258-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2640258-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2640258+sw.jpg"
       },
       {
         "sku_id": "2911691",
@@ -415,8 +178,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2911691-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2911691-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2911691+sw.jpg"
       },
       {
         "sku_id": "2911675",
@@ -426,8 +190,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2911675-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2911675-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2911675+sw.jpg"
       },
       {
         "sku_id": "2712867",
@@ -437,8 +202,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2712867-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2712867-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2712867+sw.jpg"
       },
       {
         "sku_id": "2761971",
@@ -448,8 +214,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2761971-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2761971-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2761971+sw.jpg"
       },
       {
         "sku_id": "2893329",
@@ -459,8 +226,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2893329-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2893329-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2893329+sw.jpg"
       },
       {
         "sku_id": "2762029",
@@ -470,8 +238,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2762029-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2762029-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2762029+sw.jpg"
       },
       {
         "sku_id": "2893360",
@@ -481,8 +250,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2893360-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2893360-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2893360+sw.jpg"
       },
       {
         "sku_id": "2893345",
@@ -492,8 +262,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2893345-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2893345-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2893345+sw.jpg"
       },
       {
         "sku_id": "2893410",
@@ -503,275 +274,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": "allure 2022 Best of Beauty Award Winner",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2893410-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
-        "swatch_alt": null
-      }
-    ]
-  },
-  {
-    "product_id": "P515061",
-    "brand": "Saie",
-    "product_name": "SuperSuede™ Radiant Talc-Free Baked Powder Blush",
-    "sku_id": "2975878",
-    "list_price": "$28.00",
-    "sale_price": null,
-    "on_sale": false,
-    "rating": 4.7201,
-    "reviews": 543,
-    "more_colors": 7,
-    "is_bestseller": true,
-    "is_new": true,
-    "is_sephora_exclusive": true,
-    "is_limited_edition": false,
-    "is_online_only": false,
-    "sponsored": false,
-    "product_url": "https://www.sephora.com/product/saie-supersuede-talc-free-powder-blush-P515061?skuId=2975878",
-    "hero_image_url": "https://www.sephora.com/productimages/sku/s2975878-main-zoom.jpg?imwidth=270&pb=clean-planet-aware",
-    "target_url": "/product/saie-supersuede-talc-free-powder-blush-P515061?skuId=2975878",
-    "short_description": "A long-wearing baked blush that’s non-comedogenic and lightweight for a diffused flush of color.",
-    "long_description": "What it is: A long-wearing baked blush that’s non-comedogenic and lightweight for a diffused flush of color. Highlighted Ingredients: - Plant-Derived Squalane and Glycerin: Help moisturize and soften dry skin. - Hyaluronic Acid: Locks in moisture to hydrate skin. - Ethically Sourced Silica and Mica: Helps to blur skin with a natural, diffused finish. Ingredient Callouts: Free of parabens, formaldehydes, formaldehyde-releasing agents, phthalates, mineral oil, retinyl palmitate, oxybenzone, coal tar, hydroquinone, sulfates SLS & SLES, triclocarban, triclosan, and contains less than one percent synthetic fragrance. It is also vegan, gluten-free, cruelty-free, and comes in recyclable packaging. What Else You Need to Know: Luxurious and plush, SuperSuede™ blush has easy pickup and effortless, breathable color payoff. Its lightweight, velvet texture melts into skin seamlessly, blurs without silicones, and is never patchy, cakey or drying. We recommend storing SuperSuede™ out of direct sunlight or harsh lighting when not in use.",
-    "how_to_use": "Suggested Usage: With a light hand, DIP flat side of Powder Blush Brush into SuperSuede™. -Gently TAP off excess pigment from bristles for a controlled, even application. -Softly SWEEP brush over apples of the cheeks and up toward the temples. Repeat to build pigment. - Stack SuperSuede™ on top of Dew Blush Liquid Cream Blush (sold separately) to intensify color and set. -SaieGlow™ Pro Artist Tip: - Use one side of the Powder Blush Brush's bristles to apply pigment and the opposite clean side to blend.",
-    "loves_count": 234325,
-    "ingredients": "MA DONNA, BELLA, GRAZIE, CIAO MICA, SYNTHETIC FLUORPHLOGOPITE, KAOLIN, SQUALANE, JOJOBA ESTERS, OCTYLDODECANOL, HECTORITE, SILICA, ETHYLHEXYLGLYCERIN, POTASSIUM SORBATE, ALUMINA, BORON NITRIDE, CELLULOSE, TIN OXIDE, GLYCERIN, SODIUM ACETYLATED HYALURONATE, AQUA / WATER / EAU, TOCOPHEROL, GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT, SODIUM BENZOATE. [+/- MAY CONTAIN/PEUT CONTENIR: TITANIUM DIOXIDE (CI 77891), IRON OXIDES (CI 77491, CI 77492, CI 77499), BISMUTH OXYCHLORIDE (CI 77163), ULTRAMARINES (CI 77007), RED 7 (CI 15850), RED 7 LAKE (CI 15850), RED 22 LAKE (CI 45380), RED 28 LAKE (CI 45410)]. VINO, FRUTTI, AMORE, MIA, STELLA MICA, SYNTHETIC FLUORPHLOGOPITE, KAOLIN, SQUALANE, JOJOBA ESTERS, OCTYLDODECANOL, HECTORITE, SILICA, ETHYLHEXYLGLYCERIN, POTASSIUM SORBATE, ALUMINA, BORON NITRIDE, CELLULOSE, GLYCERIN, SODIUM ACETYLATED HYALURONATE, AQUA / WATER / EAU, TOCOPHEROL, GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT, SODIUM BENZOATE. [+/- MAY CONTAIN/PEUT CONTENIR: TITANIUM DIOXIDE (CI 77891), IRON OXIDES (CI 77491, CI 77492, CI 77499), BISMUTH OXYCHLORIDE (CI 77163), ULTRAMARINES (CI 77007), RED 7 (CI 15850), RED 7 LAKE (CI 15850), RED 28 LAKE (CI 45410)].",
-    "size": ".01oz/3g",
-    "shades": [
-      {
-        "sku_id": "2975878",
-        "shade_name": "Ma Donna",
-        "list_price": "$28.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean plus Planet Aware",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2975878-main-zoom.jpg?pb=clean-planet-aware",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2849156",
-        "shade_name": "Stella",
-        "list_price": "$28.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean plus Planet Aware",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2849156-main-zoom.jpg?pb=clean-planet-aware",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2975969",
-        "shade_name": "Fruitti",
-        "list_price": "$28.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean plus Planet Aware",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2975969-main-zoom.jpg?pb=clean-planet-aware",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2849164",
-        "shade_name": "Grazie",
-        "list_price": "$28.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean plus Planet Aware",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2849164-main-zoom.jpg?pb=clean-planet-aware",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2975845",
-        "shade_name": "Vino",
-        "list_price": "$28.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean plus Planet Aware",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2975845-main-zoom.jpg?pb=clean-planet-aware",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2849149",
-        "shade_name": "Ciao",
-        "list_price": "$28.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean plus Planet Aware",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2849149-main-zoom.jpg?pb=clean-planet-aware",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2849123",
-        "shade_name": "Mia",
-        "list_price": "$28.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean plus Planet Aware",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2849123-main-zoom.jpg?pb=clean-planet-aware",
-        "swatch_alt": null
-      }
-    ]
-  },
-  {
-    "product_id": "P517483",
-    "brand": "rhode",
-    "product_name": "Pocket Blush Buildable Hydrating Cream Blush",
-    "sku_id": "2998102",
-    "list_price": "$25.00",
-    "sale_price": null,
-    "on_sale": false,
-    "rating": 4.2105,
-    "reviews": 1872,
-    "more_colors": 12,
-    "is_bestseller": true,
-    "is_new": true,
-    "is_sephora_exclusive": false,
-    "is_limited_edition": false,
-    "is_online_only": false,
-    "sponsored": false,
-    "product_url": "https://www.sephora.com/product/pocket-blush-P517483?skuId=2998102",
-    "hero_image_url": "https://www.sephora.com/productimages/sku/s2998102-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
-    "target_url": "/product/pocket-blush-P517483?skuId=2998102",
-    "short_description": "An on-the-go cream blush that wakes up cheeks and lips with a satiny, diffused flush.",
-    "long_description": "What it is: An on-the-go cream blush that wakes up cheeks and lips with a satiny, diffused flush. Finish: Satin Formulation: Cream Ingredient Callouts: This product is vegan and cruelty-free. What Else You Need to Know: Pocket Blush is a lightweight cream blush that melts on smoothly, blends seamlessly, and stays all day. It hydrates skin for baby-soft cheeks and leaves a glowy finish without a greasy feel. Clinical Results: Based on a 32-subject consumer perception study after 2 weeks of use: -100% said it gave cheeks a natural glow -97% said it melts into skin + blends seamlessly -3 out of 4 said the blush feels hydrating Clean at Sephora Clean at Sephora is our commitment to offering effective products without certain ingredients, such as parabens, sulfates, phthalates, and mineral oils. Learn more here .",
-    "how_to_use": "Suggested Usage: -Apply with your finger or a brush and tap onto cheeks. -Color is buildable, so tap on a little or a lot—however you like it. -For a monochromatic look, apply to cheeks and lips. -Avoid the eye area.",
-    "loves_count": 1198021,
-    "ingredients": "Octyldodecanol, Synthetic Wax, Hydrogenated Polyisobutene, Cetyl Ethylhexanoate, Polyglyceryl-2 Triisostearate, Hydrogenated Poly(C6-14 Olefin), Bis-Diglyceryl Polyacyladipate-2, Magnesium/Potassium/Silicon/Fluoride/Hydroxide/Oxide, Kaolin, Silica, Tocopherol, Glycerin, Calophyllum Inophyllum Seed Oil, Palmitoyl Tripeptide-1, Palmitoyl Tripeptide-5, Caprylyl Glycol, Caprylic/Capric Triglyceride, Glyceryl Caprylate, Pentaerythrityl Tetraisostearate, Aluminum Hydroxide, Triethoxycaprylylsilane, Water/Aqua/Eau, Propylene Carbonate, Lauryl Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone, Stearalkonium Hectorite, Ethylhexylglycerin, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77492, CI 77499), Red 28 Lake (CI 45410), Red 7 (CI 15850), Blue 1 Lake (CI 42090)",
-    "size": "0.18 oz/5.3 g",
-    "shades": [
-      {
-        "sku_id": "2998102",
-        "shade_name": "Teacup",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2998102-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2896181",
-        "shade_name": "Piggy - baby pink",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2896181-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2896033",
-        "shade_name": "Sprinkle - warm pearly pink",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2896033-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2895779",
-        "shade_name": "Juice Box - hot pink",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2895779-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2895860",
-        "shade_name": "Spicy Marg - bright coral",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2895860-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2896124",
-        "shade_name": "Freckle - neutral peach",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2896124-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2916823",
-        "shade_name": "Tan Line - pinky tan",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2916823-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2895845",
-        "shade_name": "Sleepy Girl - soft mauve",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2895845-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2895969",
-        "shade_name": "Toasted Teddy - bronze terracotta",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2895969-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2916815",
-        "shade_name": "Sun Soak - spiced orange",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2916815-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2896116",
-        "shade_name": "Date Cake - warm red berry",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2896116-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
-      },
-      {
-        "sku_id": "2998110",
-        "shade_name": "Candy Apple",
-        "list_price": "$25.00",
-        "sale_price": null,
-        "in_stock": false,
-        "is_final_sale": false,
-        "badge": "Clean at Sephora",
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2998110-main-zoom.jpg?pb=clean-at-sephora",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2893410-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2893410+sw.jpg"
       }
     ]
   },
@@ -798,7 +303,7 @@
     "short_description": "A lightweight liquid blush with buildable pigments and finely milled micro-pearls for a soft-focus, high-impact glow.",
     "long_description": "What it is: A lightweight liquid blush with buildable pigments and finely milled micro-pearls for a soft-focus, high-impact glow. Finish: Radiant Ingredient Callouts: It is cruelty-free. What Else You Need to Know: B lush Filter's formula has blendable pigments that effortlessly melt into the skin using its innovative doe-foot applicator for a long lasting dimesnional 'airblushed' finish. The formula also includes a yummy candy scent to complement the sweet shade names.",
     "how_to_use": "Suggested Usage: -Add three dots of blush onto targeted areas with peanut-shaped doe foot. Blend with fingertips for a luminous glow! -HUDA hack: Combine two shades for an ombre blush effect starting with three dots of the lightest shade at the center of the cheek. Add two dots of a darker shade higher up the cheekbone. Blend with fingers. Set with Easy Bake Loose Baking and Setting Powder for an ‘airblushed’ finish. -HUDA’S color combinations for ‘OMBRE’ blush: Cotton Candy + Strawberry Cream Cotton Candy + Peach Sorbet Peach Sorbet + Watermelon Pop Strawberry Cream + Black Cherry.",
-    "loves_count": 419260,
+    "loves_count": 419666,
     "ingredients": "Hydrogenated Polyisobutene, Hydrogenated Poly(C6-14 Olefin), Mica, Diisostearyl Malate, Octyldodecanol, Trimethylsiloxysilicate, Isododecane, Hydrogenated Styrene/Isoprene Copolymer, Silica, Synthetic Fluorphlogopite, Calcium Titanium Borosilicate, Dextrin Palmitate, Disteardimonium Hectorite, Sorbitan Sesquioleate, Phenoxyethanol, Propylene Carbonate, Fragrance/ Parfum, Tin Oxide, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Tocopherol, Triethoxycaprylylsilane, Aluminum Hydroxide, Polyhydroxystearic Acid, Vanillin, Titanium Dioxide/Ci 77891, Red 7 Lake/Ci 15850, Yellow 6 Lake/Ci 15985, Red 28 Lake/Ci 45410, Iron Oxides/Ci 77492, Iron Oxides/ Ci 77499, Iron Oxides/Ci 77491, Yellow 5 Lake/ Ci 19140, Blue 1 Lake/Ci 42090.",
     "size": "0.15 oz/4.5 mL",
     "shades": [
@@ -810,8 +315,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2954675-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2954675-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2954675+sw.jpg"
       },
       {
         "sku_id": "2837169",
@@ -821,8 +327,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2837169-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2837169-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2837169+sw.jpg"
       },
       {
         "sku_id": "2828911",
@@ -832,8 +339,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2828911-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2828911-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2828911+sw.jpg"
       },
       {
         "sku_id": "2767309",
@@ -843,8 +351,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2767309-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2767309-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2767309+sw.jpg"
       },
       {
         "sku_id": "2837144",
@@ -854,8 +363,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2837144-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2837144-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2837144+sw.jpg"
       },
       {
         "sku_id": "2767317",
@@ -865,8 +375,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2767317-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2767317-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2767317+sw.jpg"
       },
       {
         "sku_id": "2814366",
@@ -876,8 +387,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2814366-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2814366-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2814366+sw.jpg"
       },
       {
         "sku_id": "2934255",
@@ -887,8 +399,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2934255-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2934255-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2934255+sw.jpg"
       },
       {
         "sku_id": "2837151",
@@ -898,8 +411,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2837151-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2837151-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2837151+sw.jpg"
       },
       {
         "sku_id": "2954659",
@@ -909,8 +423,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2954659-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2954659-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2954659+sw.jpg"
       },
       {
         "sku_id": "2767283",
@@ -920,8 +435,9 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2767283-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2767283-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2767283+sw.jpg"
       },
       {
         "sku_id": "2817930",
@@ -931,8 +447,636 @@
         "in_stock": false,
         "is_final_sale": false,
         "badge": null,
-        "swatch_img_url": "https://www.sephora.com/productimages/sku/s2817930-main-zoom.jpg",
-        "swatch_alt": null
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2817930-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2817930+sw.jpg"
+      }
+    ]
+  },
+  {
+    "product_id": "P517483",
+    "brand": "rhode",
+    "product_name": "Pocket Blush Buildable Hydrating Cream Blush",
+    "sku_id": "2998102",
+    "list_price": "$25.00",
+    "sale_price": null,
+    "on_sale": false,
+    "rating": 4.2105,
+    "reviews": 1881,
+    "more_colors": 12,
+    "is_bestseller": true,
+    "is_new": true,
+    "is_sephora_exclusive": false,
+    "is_limited_edition": false,
+    "is_online_only": false,
+    "sponsored": false,
+    "product_url": "https://www.sephora.com/product/pocket-blush-P517483?skuId=2998102",
+    "hero_image_url": "https://www.sephora.com/productimages/sku/s2998102-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+    "target_url": "/product/pocket-blush-P517483?skuId=2998102",
+    "short_description": "An on-the-go cream blush that wakes up cheeks and lips with a satiny, diffused flush.",
+    "long_description": "What it is: An on-the-go cream blush that wakes up cheeks and lips with a satiny, diffused flush. Finish: Satin Formulation: Cream Ingredient Callouts: This product is vegan and cruelty-free. What Else You Need to Know: Pocket Blush is a lightweight cream blush that melts on smoothly, blends seamlessly, and stays all day. It hydrates skin for baby-soft cheeks and leaves a glowy finish without a greasy feel. Clinical Results: Based on a 32-subject consumer perception study after 2 weeks of use: -100% said it gave cheeks a natural glow -97% said it melts into skin + blends seamlessly -3 out of 4 said the blush feels hydrating Clean at Sephora Clean at Sephora is our commitment to offering effective products without certain ingredients, such as parabens, sulfates, phthalates, and mineral oils. Learn more here .",
+    "how_to_use": "Suggested Usage: -Apply with your finger or a brush and tap onto cheeks. -Color is buildable, so tap on a little or a lot—however you like it. -For a monochromatic look, apply to cheeks and lips. -Avoid the eye area.",
+    "loves_count": 1202309,
+    "ingredients": "Octyldodecanol, Synthetic Wax, Hydrogenated Polyisobutene, Cetyl Ethylhexanoate, Polyglyceryl-2 Triisostearate, Hydrogenated Poly(C6-14 Olefin), Bis-Diglyceryl Polyacyladipate-2, Magnesium/Potassium/Silicon/Fluoride/Hydroxide/Oxide, Kaolin, Silica, Tocopherol, Glycerin, Calophyllum Inophyllum Seed Oil, Palmitoyl Tripeptide-1, Palmitoyl Tripeptide-5, Caprylyl Glycol, Caprylic/Capric Triglyceride, Glyceryl Caprylate, Pentaerythrityl Tetraisostearate, Aluminum Hydroxide, Triethoxycaprylylsilane, Water/Aqua/Eau, Propylene Carbonate, Lauryl Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone, Stearalkonium Hectorite, Ethylhexylglycerin, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77492, CI 77499), Red 28 Lake (CI 45410), Red 7 (CI 15850), Blue 1 Lake (CI 42090)",
+    "size": "0.18 oz/5.3 g",
+    "shades": [
+      {
+        "sku_id": "2998102",
+        "shade_name": "Teacup",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2998102-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2998102+sw.jpg"
+      },
+      {
+        "sku_id": "2896181",
+        "shade_name": "Piggy - baby pink",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2896181-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2896181+sw.jpg"
+      },
+      {
+        "sku_id": "2896033",
+        "shade_name": "Sprinkle - warm pearly pink",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2896033-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2896033+sw.jpg"
+      },
+      {
+        "sku_id": "2895779",
+        "shade_name": "Juice Box - hot pink",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2895779-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2895779+sw.jpg"
+      },
+      {
+        "sku_id": "2895860",
+        "shade_name": "Spicy Marg - bright coral",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2895860-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2895860+sw.jpg"
+      },
+      {
+        "sku_id": "2896124",
+        "shade_name": "Freckle - neutral peach",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2896124-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2896124+sw.jpg"
+      },
+      {
+        "sku_id": "2916823",
+        "shade_name": "Tan Line - pinky tan",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2916823-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2916823+sw.jpg"
+      },
+      {
+        "sku_id": "2895845",
+        "shade_name": "Sleepy Girl - soft mauve",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2895845-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2895845+sw.jpg"
+      },
+      {
+        "sku_id": "2895969",
+        "shade_name": "Toasted Teddy - bronze terracotta",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2895969-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2895969+sw.jpg"
+      },
+      {
+        "sku_id": "2916815",
+        "shade_name": "Sun Soak - spiced orange",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2916815-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2916815+sw.jpg"
+      },
+      {
+        "sku_id": "2896116",
+        "shade_name": "Date Cake - warm red berry",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2896116-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2896116+sw.jpg"
+      },
+      {
+        "sku_id": "2998110",
+        "shade_name": "Candy Apple",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": "Clean at Sephora",
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2998110-main-zoom.jpg?pb=clean-at-sephora",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2998110+sw.jpg"
+      }
+    ]
+  },
+  {
+    "product_id": "P514568",
+    "brand": "Yves Saint Laurent",
+    "product_name": "Make Me Blush 24H Buildable Powder Blush",
+    "sku_id": "2935195",
+    "list_price": "$46.00",
+    "sale_price": null,
+    "on_sale": false,
+    "rating": 4.8134,
+    "reviews": 2781,
+    "more_colors": 13,
+    "is_bestseller": true,
+    "is_new": false,
+    "is_sephora_exclusive": false,
+    "is_limited_edition": false,
+    "is_online_only": false,
+    "sponsored": false,
+    "product_url": "https://www.sephora.com/product/make-me-blush-24h-buildable-powder-blush-P514568?skuId=2935195",
+    "hero_image_url": "https://www.sephora.com/productimages/sku/s2935195-main-zoom.jpg?imwidth=270",
+    "target_url": "/product/make-me-blush-24h-buildable-powder-blush-P514568?skuId=2935195",
+    "short_description": "An ultra-sensorial, waterproof, sweatproof, silky powder blush that blurs the looks of pores and ensures up to 24 hours of bright-colored flush.",
+    "long_description": "What it is: A little blush in a little clutch. A long-lasting, velvety-soft blush that provides buildable color in silky satin and soft matte finishes Coverage: Medium Finish: Matte and Satin Formulation: Pressed Powder Highlighted Ingredients: - Squalane: Blurs the looks of imperfections and pores on the cheek. - Rosehip from YSL Beauty Ourika Community Gardens: For healthy-looking skin. What Else You Need to Know: This iconic, palm-sized powder blush feels lightweight and blurs onto cheeks, lasting 24H without leaving skin feeling dry. These collectable couture blushes provide a subtle diffused flush or can build for a full glam look.",
+    "how_to_use": "Suggested Usage: For a flushed look: - Using a blush brush, apply a swipe of the powder blush over the tops of the cheekbones, sweeping up towards the temples. - Blend for a soft flush of color, build for a full glam. For a sun-kissed look: - Using a blush brush, apply the blush in a “W” shape from one cheek, across your nose, to the other cheek. - Blend. Pro tip: A little goes a long way. Make sure to tap the brush on the side of the pan before applying to skin.",
+    "loves_count": 500053,
+    "ingredients": "Talc, Ci 77491 / Iron Oxides, Mica, Caprylic/Capric Triglyceride, Dimethicone, Silica, Ci 77492 / Iron Oxides, Zinc Stearate, Ci 15850 / Red 7 Lake, Ci 77499 / Iron Oxides, Ci 77891 / Titanium Dioxide, Caprylyl Glycol, Isododecane, Zea Mays Starch / Corn Starch, Trimethylsiloxysilicate, Squalane, Ci 19140 / Yellow 5 Lake, Ethylhexylglycerin, Potassium Sorbate, Alaria Esculenta Extract, Dimethicone/Vinyl Dimethicone Crosspolymer, Dimethiconol, Rosa Canina Fruit Extract, Silica [Nano] / Silica, Tocopherol.",
+    "size": "0.21 oz/6 g",
+    "shades": [
+      {
+        "sku_id": "2935195",
+        "shade_name": "12 Honeymoon",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2935195-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2935195+sw.jpg"
+      },
+      {
+        "sku_id": "2830230",
+        "shade_name": "6 Rose Haze",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2830230-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2830230+sw.jpg"
+      },
+      {
+        "sku_id": "2830180",
+        "shade_name": "37 Peachy Nude",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2830180-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2830180+sw.jpg"
+      },
+      {
+        "sku_id": "2830198",
+        "shade_name": "42 Babydoll Pink",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2830198-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2830198+sw.jpg"
+      },
+      {
+        "sku_id": "2830206",
+        "shade_name": "44 Nude Lavalliere",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2830206-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2830206+sw.jpg"
+      },
+      {
+        "sku_id": "2830214",
+        "shade_name": "54 Berry Bang",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2830214-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2830214+sw.jpg"
+      },
+      {
+        "sku_id": "2830248",
+        "shade_name": "87 Pink Voltage",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2830248-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2830248+sw.jpg"
+      },
+      {
+        "sku_id": "2830255",
+        "shade_name": "93 Restless Rose",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2830255-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2830255+sw.jpg"
+      },
+      {
+        "sku_id": "2851509",
+        "shade_name": "83 Spicy Berry",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2851509-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2851509+sw.jpg"
+      },
+      {
+        "sku_id": "2884930",
+        "shade_name": "15 Chili Crush",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2884930-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2884930+sw.jpg"
+      },
+      {
+        "sku_id": "2885309",
+        "shade_name": "23 Hot Mauve",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2885309-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2885309+sw.jpg"
+      },
+      {
+        "sku_id": "2880862",
+        "shade_name": "03 Mischievous Magenta",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2880862-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2880862+sw.jpg"
+      },
+      {
+        "sku_id": "2933356",
+        "shade_name": "66 Fuchsia Fizz",
+        "list_price": "$46.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2933356-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2933356+sw.jpg"
+      }
+    ]
+  },
+  {
+    "product_id": "P458747",
+    "brand": "PATRICK TA",
+    "product_name": "Major Headlines Double-Take Crème & Powder Blush Duo",
+    "sku_id": "2990125",
+    "list_price": "$25.00 - $40.00",
+    "sale_price": null,
+    "on_sale": false,
+    "rating": 4.6419,
+    "reviews": 4248,
+    "more_colors": 16,
+    "is_bestseller": true,
+    "is_new": true,
+    "is_sephora_exclusive": true,
+    "is_limited_edition": false,
+    "is_online_only": true,
+    "sponsored": false,
+    "product_url": "https://www.sephora.com/product/patrick-ta-major-headlines-cream-powder-blush-duo-P458747?skuId=2990125",
+    "hero_image_url": "https://www.sephora.com/productimages/sku/s2990125-main-zoom.jpg?imwidth=270",
+    "target_url": "/product/patrick-ta-major-headlines-cream-powder-blush-duo-P458747?skuId=2990125",
+    "short_description": "A viral duo compact of powder and cream blush formulas to achieve long-wearing bold color that melts into skin for a beautiful, radiant glow.",
+    "long_description": "What it is: A viral duo compact of powder and cream blush formulas to achieve long-wearing bold color that melts into skin for a beautiful, radiant glow. Finish: Radiant Formulation: Cream, Pressed Powder Highlighted Ingredients: - Patented Biomimetic Pigments: Mirror the skin's ceramide structure, ensuring adhesion, true color, and the most natural finish. - Micronized Pigments: Provide even, flawless payoff, a luminous finish, and extended wear. - Creamy Emollient Base: Flawlessly blends into skin, provides a dewy finish, and locks in color for extended wear. Ingredient Callouts: Free of sulfates SLS and SLES, parabens, formaldehydes, formaldehyde-releasing agents, phthalates, mineral oil, retinyl palmitate, oxybenzone, coal tar, hydroquinone, triclosan, and triclocarban, and contains less than one percent of synthetic fragrances. This product is cruelty-free and gluten-free. W hat Else You Need to Know: This bestselling blush duo is inspired by Patrick’s viral cream-over-powder blush technique. The rich pigments blend together for a long-wearing skin-like finish to create a lit-from-within glow.",
+    "how_to_use": "Suggested Usage: -For a sheer look and dewy glow, dab and blend the cream formula on cheeks. -For a soft, airbrushed finish, sweep the powder onto the apples of the cheeks with a fluffy blush brush. -For ultimate color payoff, layer the cream formula over the powder for a glossy, dimensional look. -For best results, pair with Patrick Ta Dual Ended Blush Brush (sold separately).",
+    "loves_count": 2653115,
+    "ingredients": "Crème: PPG-3 Benzyl Ether Myristate, Phenyl Trimethicone, Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Diisostearyl Malate, Ethylhexyl Stearate, Triisostearyl Citrate, Polyethylene, Nylon 12, Polybutene, Polysilicone-1 Crosspolymer, Silica, Octyldodecanol, Quaternium-90 Bentonite, Propylene Carbonate, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate. May Contain (+/-): Titanium Dioxide (CI 77891), Iron Oxide (CI 77492), Blue 1 Lake (CI 42090), Red 7 Lake (CI 15850), Red 30 (Cl 73360). Powder: Synthetic Fluorphlogopite, Mica, Magnesium Myristate, Nylon 12, Silica, Isostearyl Neopentaoate, Glyceryl Triacetyl Ricinoleate, Capric/Caprylic Triglyceride, PEG-12 Dimethicone, Tocopheryl Acetate, Polyhydroxystearic Acid, PEG-12 Allyl Ether, Caprylyl Glycol, Trimyristin, Hydrogenated Lecithin, Hexylene Glycol, Phenoxyethanol. May Contain (+/-): Iron Oxide (Cl 77492), Iron Oxide (Cl 77499), Titanium Dioxide (CI 77891), Tin Oxide (CI 77861), Red 6 Lake (CI 15850), Red 30 (Cl73360), Ultramarines (CI 77007), Bismuth Oxychloride (CI 77163).",
+    "size": "0.17 oz crème and 0.17 oz powder/5 g crème and 5 g powder",
+    "shades": [
+      {
+        "sku_id": "2990125",
+        "shade_name": "Out Of Office",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2990125-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2990125+sw.jpg"
+      },
+      {
+        "sku_id": "2742492",
+        "shade_name": "Just Enough",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2742492-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2742492+sw.jpg"
+      },
+      {
+        "sku_id": "2742500",
+        "shade_name": "Not Too Much",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2742500-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2742500+sw.jpg"
+      },
+      {
+        "sku_id": "2555894",
+        "shade_name": "She's Vibrant",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2555894-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2555894+sw.jpg"
+      },
+      {
+        "sku_id": "2555886",
+        "shade_name": "She's a Doll",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2555886-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2555886+sw.jpg"
+      },
+      {
+        "sku_id": "2363844",
+        "shade_name": "She's That Girl",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2363844-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2363844+sw.jpg"
+      },
+      {
+        "sku_id": "2699379",
+        "shade_name": "She's Flushed",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2699379-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2699379+sw.jpg"
+      },
+      {
+        "sku_id": "2568665",
+        "shade_name": "She's Blushing",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2568665-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2568665+sw.jpg"
+      },
+      {
+        "sku_id": "2699361",
+        "shade_name": "She's Wanted",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2699361-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2699361+sw.jpg"
+      },
+      {
+        "sku_id": "2364289",
+        "shade_name": "She's So LA",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2364289-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2364289+sw.jpg"
+      },
+      {
+        "sku_id": "2906113",
+        "shade_name": "She's That Girl",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2906113-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2906113+sw.jpg"
+      },
+      {
+        "sku_id": "2926020",
+        "shade_name": "She Goes To The Gym",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2926020-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2926020+sw.jpg"
+      },
+      {
+        "sku_id": "2925998",
+        "shade_name": "She's Seductive",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2925998-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2925998+sw.jpg"
+      },
+      {
+        "sku_id": "2926004",
+        "shade_name": "She Left Me On Red",
+        "list_price": "$25.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2926004-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2926004+sw.jpg"
+      },
+      {
+        "sku_id": "2925980",
+        "shade_name": "Soft Launch",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2925980-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2925980+sw.jpg"
+      },
+      {
+        "sku_id": "2849768",
+        "shade_name": "She Goes To The Gym",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2849768-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2849768+sw.jpg"
+      },
+      {
+        "sku_id": "2849784",
+        "shade_name": "She's Seductive",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2849784-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2849784+sw.jpg"
+      },
+      {
+        "sku_id": "2849776",
+        "shade_name": "She Left Me On Red",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2849776-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2849776+sw.jpg"
+      },
+      {
+        "sku_id": "2849750",
+        "shade_name": "She Knows Who She Is",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2849750-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2849750+sw.jpg"
+      },
+      {
+        "sku_id": "2926012",
+        "shade_name": "Thank Me Later",
+        "list_price": "$40.00",
+        "sale_price": null,
+        "in_stock": false,
+        "is_final_sale": false,
+        "badge": null,
+        "shade_img_url": "https://www.sephora.com/productimages/sku/s2926012-main-zoom.jpg",
+        "swatch_alt": null,
+        "color_img_url": "https://www.sephora.com/productimages/sku/s2926012+sw.jpg"
       }
     ]
   }
