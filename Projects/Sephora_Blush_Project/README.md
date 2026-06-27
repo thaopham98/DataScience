@@ -9,16 +9,18 @@ sephora-blush-analysis/
 ├── data/
 │   ├── raw/             # Scraped JSON output (gitignored)
 ├── src
-|   ├── scraping
+│   ├── scraping
 │   │   ├── http.py               # requests.Session with curl_cffi
 │   │   ├── listing.py            # Step 1: category listing API
 │   │   ├── product_detail.py     # Step 2: product page -> linkStore JSON
 │   │   ├── shades.py             # Step 3: shades API (incl. swatch images)
 │   │   └── scraper.py            # orchestrator, runs steps 1-3 concurrently
-|   ├── config.py                # paths, URLs, request settings (single source of truth)
+│   ├── config.py                # paths, URLs, request settings (single source of truth)
 │   ├── encoding_utils.py        # fix_mojibake() — see docs/ENCODING.md
 │   ├── io_utils.py               # read/write CSV+JSON, always as UTF-8 
-│   ├──run.py                      # CLI entry point
+│   ├── run.py                      # CLI entry point
+│   ├── cleaning
+│   │   └── cleaning.py           # cleaning raw csv files 
 
 ```
 
