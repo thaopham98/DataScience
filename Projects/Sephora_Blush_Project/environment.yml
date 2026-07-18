@@ -1,0 +1,14 @@
+name: pigment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.13
+  - pip
+  - pip:
+    - curl_cffi>=0.7
+    - beautifulsoup4>=4.12
+    - pandas>=2.0
+    - numpy>=1.24
+    - pytest>=8.0
+    - matplotlib>=3.8
