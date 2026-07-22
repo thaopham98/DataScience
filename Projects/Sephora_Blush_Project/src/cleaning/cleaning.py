@@ -105,6 +105,31 @@ def add_unit_columns(df: pd.DataFrame, size_column: str = "size") -> pd.DataFram
     # df.drop("size", axis=1, inplace=True) # size, axis = 1: column, inplace
     return df
 
+def validate_tables(products, shades):
+    problems = [] # tracking the problems of the products and shades datasets
+
+    if products["product_id"].isna().any():
+        problems.append("Products contain missing product_id values")
+
+    if products["product_id"].duplicated().any():
+        problems.append("Products contain duplicate product_id values")
+
+    if shades["sku_id"].isna().any():
+        problems.append("Shades contain missing sku_id values")
+
+    if shades["sku_id"].duplicated().any():
+        problems.append("Shades contain duplicate sku_id values")
+
+    orphan_ids = set(shades["product_id"]) - set(products["product_id"])
+    if orphan_ids:
+        problems.append(
+            f"Shades reference {len(orphan_ids)} unknown products"
+        )
+
+    if problems:
+        raise ValueError("\n".join(problems))
+
+    print("Validation passed")
 
 def run_cleaning_pipeline(raw_filename: str = "bronzer-makeup_detailed.json") -> tuple[pd.DataFrame, pd.DataFrame]:
     """Load raw JSON, clean, and write products.csv + shades.csv. Returns both DataFrames."""
@@ -112,14 +137,27 @@ def run_cleaning_pipeline(raw_filename: str = "bronzer-makeup_detailed.json") ->
     # print(f"Loading file: {raw_filename}")
     
     products = clean_products(build_products_table(records)) # Create, flatten, and clean products table
-    print_missing_analysis(comprehensive_missing_analysis(products)) # missing values 
-
-    products = add_unit_columns(products, size_column="size") # Handling the products size and add new columns
-
     shades = clean_shades(build_shades_table(records)) # Create, flatten, and clean shades table
+    
+    products = add_unit_columns(products, size_column="size") # Handling the products size and add new columns
+    
+
+    print_missing_analysis(comprehensive_missing_analysis(products), title="PRODUCT MISSING-VALUE REPORT") # missing values report
+    print_missing_analysis(comprehensive_missing_analysis(shades), title="SHADE MISSING-VALUE REPORT") # missing values report
+
+    unparsed_size = products[
+        products["size"].notna()
+        & products[UNIT_COLUMNS].isna().all(axis=1)
+    ]
+
+    print(f"Unparsed size values: {len(unparsed_size)}")
+
 
     category = raw_filename.replace("_detailed.json", "")
+
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S") # year/month/date_hour/minute/second
+
+    validate_tables(products, shades) # Checking what kind of problems do each dataset have
 
     write_csv_utf8(products, PROCESSED_DATA_DIR / f"{category}_products_{timestamp}.csv")
     write_csv_utf8(shades, PROCESSED_DATA_DIR / f"{category}_shades_{timestamp}.csv")
