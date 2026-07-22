@@ -68,8 +68,23 @@ def clean_products(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def clean_shades(df: pd.DataFrame) -> pd.DataFrame:
-    df = fix_mojibake_in_dataframe(df)
-    df = df.drop_duplicates(subset="sku_id") # fix the problem with only clean the first shade of each product
+    df = fix_mojibake_in_dataframe(df) # fixing mofibake encoding exist in df
+
+    ## Convert list_price and sale_price from string into numeric
+    for column in ['list_price','sale_price']:
+        df[column] = pd.to_numeric(
+            df[column]
+            .astype("string")
+            .str.replace(r"[$,]", "", regex=True)
+            .str.strip(),
+            errors="coerce",
+        )
+
+
+    # df = df.drop_duplicates(subset="sku_id") # fix the problem with only clean the first shade of each product
+    df = df.drop_duplicates(
+            subset=["product_id", "sku_id"]
+        ).reset_index(drop=True)
     return df
 
 ## Handling Size strings
