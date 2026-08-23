@@ -1,4 +1,5 @@
-# Spotify Streaming History - Power BI Report
+# <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/7052355e-8c06-4680-a17e-3b317225fba6" /> Spotify Streaming History - Power BI Report
+
 
 ## 📌 Overview
 This Power BI report provides insights into Spotify streaming history, analyzing user listening behavior, platform preferences, and track engagement. The report consists of two pages with interactive visualizations and slicers for dynamic exploration.
