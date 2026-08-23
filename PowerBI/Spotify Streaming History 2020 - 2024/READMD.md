@@ -36,7 +36,7 @@ Contains key metrics, slicers, and high-level visualizations:
   - **Track Count by Track Name** (Bar Chart)
   - **Top Artists by Listening Time** (Bar Chart)
 
-![Spotify Dashboard 1](..\..\images\spotify_dashboard1.png)
+![Spotify Dashboard 1](../../images/spotify_dashboard1.png)
 
 ### **2️⃣ Listening Behavior & Engagement Page**
 Focuses on user behavior across different platforms and engagement with tracks.
@@ -70,4 +70,4 @@ Focuses on user behavior across different platforms and engagement with tracks.
 - [Power BI](https://app.powerbi.com/groups/me/reports/270144f8-fc54-4402-af84-c2da0cdf0200/b608adbee4739a5e52cd?experience=power-bi)
 ---
 **Author:** Thao Pham  
-**Last Updated:** 6/6/2025
+**Last Updated:** 8/22/2026
