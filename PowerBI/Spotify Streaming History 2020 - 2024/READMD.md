@@ -36,7 +36,7 @@ Contains key metrics, slicers, and high-level visualizations:
   - **Track Count by Track Name** (Bar Chart)
   - **Top Artists by Listening Time** (Bar Chart)
 
-![Spotify Dashboard 1](../../images/spotify_dashboard1.png)
+![Spotify Dashboard 1](images/spotify_dashboard1.png)
 
 ### **2️⃣ Listening Behavior & Engagement Page**
 Focuses on user behavior across different platforms and engagement with tracks.
@@ -49,6 +49,8 @@ Focuses on user behavior across different platforms and engagement with tracks.
 - **Visualizations:**
   - **Total Listening Hours by Platform** (Stacked Bar Chart)
   - **Skip vs. Completion Rate by Track** (Stacked Column Chart)
+
+![Spotify Dashboard 2](images/spotify_dashboard2.png)
 
 ## 📈 Future Enhancements
 - Additional trend analysis (year-over-year comparisons)
