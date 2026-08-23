@@ -142,10 +142,10 @@ DIVIDE(
 ---
 
 ### **Key Insights**
-- The dashboard provides a clear overview of crime trends, incident types, and resolution rates.
-- Users can drill down into specific details, such as subcategories of **Larceny Theft** or temporal patterns in incidents.
-- Advanced visualizations like the heatmap and stacked area chart enable deeper analysis of correlations and trends.
-
+- Analyzed 10,000 police incident records from 11 San Francisco districts between 2018 and 2024 to identify trends in incident type, reporting channel, and case resolution.
+- Found that non-violent incidents dominate the dataset, with Larceny Theft as the most frequently reported category.
+- On average, Friday records the highest number of incident reports among all days of the week.
+- Identified low digital adoption, with only about one fifth of incidents submitted online, which indicates that most residents still rely on direct or offline channels when reporting incidents to the police.   
 ---
 
 ### **Future Enhancements**
@@ -154,18 +154,12 @@ DIVIDE(
 - Enhance interactivity with **bookmarks** to save default views (e.g., Larceny Theft as the default category).
 
 ## 🛠 Installation & Usage
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/thaopham98/DataScience.git
-cd DataScience
-```
-
-### **2. Open the Report in Power BI**
+### **1. Open the Report in Power BI**
 - Install **[Power BI Desktop](https://powerbi.microsoft.com/)** if not already installed.
 - Open the `Police Incident Reports.pbix` file in Power BI.
 - [Power BI](https://app.powerbi.com/groups/me/reports/cb3ab8b2-c1e6-428d-a78b-03833c7b1f93/9f99b2d38dae1b46d930?experience=power-bi) 
 
-### **3. Explore the Dashboard**
+### **2. Explore the Dashboard**
 - Interact with filters to analyze specific districts, dates, and crime types.
 - Modify or extend the report as needed.
 
